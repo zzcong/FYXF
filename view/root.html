@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/home/home.css"> 
+    <title>杭州市公安局富阳区分局智慧消防监督管理平台</title>
+</head>
+<body>
+    <div class="zc-head">
+        <div class="clearfix">
+            <div class="zc-logo fl">
+                <a href="javascript:;" class="fl">
+                    <img src="./images/0_logo.png" class="logoimg" alt="">
+                </a>
+                <h1 class="fl">杭州市公安局富阳区分局智慧消防监督管理平台</h1>
+            </div>
+            <div class="fr">
+                <div class="zc-tool fl tool-one">
+                    <span onclick="SetHome(this,window.location);">设为首页</span>
+                </div>
+                <div class="zc-tool-line fl"></div>
+                <div class="zc-tool fl tool-two">
+                    <span onclick="AddFavorite()">加入收藏</span>
+                </div>
+                <div class="zc-tool-line fl"></div>
+                <div class="zc-tool fl tool-three not-login">
+                    <span>登录</span>
+                </div>
+                <div class="zc-tool fl tool-three sign-in">
+                    <div class="user-img fl"></div>
+                    <div class="user-name fl">
+                        <span></span>
+                    </div>
+                    <div class="user-tools">
+                        <ul>
+                            <li class="user-center">
+                                <img src="./images/index_login/01-home-user.png" alt="">
+                                <span>个人中心</span>
+                            </li>
+                            <li class="logout">
+                                <img src="./images/index_login/01-home-quicktime.png" alt="">
+                                <span>退出登录</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="warpper warpper-menu">
+        <ul class="menus clearfix">
+            <li>
+                <img alt="社会化消防监督管理平台" src="./images/index/0-home-01.png">
+            </li>
+            <li>
+                <img alt="智慧消防综合应急调度指挥平台" src="./images/index/0-home-02.png">
+            </li>
+            <li>
+                <img alt="社会单位消防安全自我管理平台" src="./images/index/0-home-03.png">
+            </li>
+            <li>
+                <img alt="智慧消防大数据分析展示中心" src="./images/index/0-home-04.png">
+            </li>
+            <li>
+                <img alt="智慧便民服务" src="./images/index/0-home-05.png">
+            </li>
+            <li>
+                <img alt="消防安全教育培训中心" src="./images/index/0-home-06.png">
+            </li>
+            <li>
+                <img alt="智慧消防志愿者中心" src="./images/index/0-home-07.png">
+            </li>
+            <li>
+                <img alt="第三方消防中介智慧服务中心" src="./images/index/0-home-08.png">
+            </li>
+        </ul>
+        <!-- <div class="info" style="cursor: pointer"></div> -->
+    </div>
+    <div class="zc-foot">
+        <div class="warpper">
+            <div class="company fl">
+                <p>copyright@杭州富阳公安局</p>
+                <p>地址：杭州市富阳区达夫路73号 电话：0571-63155714、0571-63155711</p>
+                
+            </div>
+            <div class="contact fr">
+                <img class="sign fl" src="./images/index/0-login-xiaofang-icon.png">
+                <img class="qr-code fl" src="./images/index/fuy_code.jpg">
+                <p class="fl">扫码关注小程序获取更多服务</p>
+            </div>
+        </div>
+    </div>
+    <div class="login fixed-wrapper">
+        <p class="title">微信登录</p>
+        <img class="login-qrcode" src="./images/index/0-login-xiaofang-icon.png">
+        <p class="login-tips">请使用微信扫描二维码登录</p>
+    </div>
+    <div class="volunteer fixed-wrapper">
+        <div class="model">
+            <div class="model-head clearfix">
+                <span class="fr volunteer-close">X</span>
+            </div>
+            <div class="model-content">
+                <p>您目前是普通志愿者， 可以申请为专业志愿者。</p>
+                <a href="javascript:;" class="to-volunteer">成为专业志愿者</a>
+            </div>
+        </div>
+    </div>
+    <div class="auditing fixed-wrapper">
+        <div class="audit-model">
+            <div class="audit-head">
+                <span class="fl title">审核中</span>
+                <a href="javascript:;" class="fr audit-close">X</a>
+            </div>
+            <div class="audit-content">
+                <p>您的志愿者申请正在审核中， 请稍后查询！</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./static/jquery.1.11.0.js"></script>
+<script src="./static/template.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/root.js"></script>
+</html>

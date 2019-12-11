@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>智慧服务中心</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/pagination.css">
+    <link rel="stylesheet" href="../../static/iconfont_my/iconfont.css">
+    <link rel="stylesheet" href="../../css/SmartServiceCenter/product_details.css">
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <div class="common-head">
+        <div class="clearfix">
+            <div class="fl">
+                <a href="javascript:;" class="logo fl">
+                    <img src="../../images/0_logo.png" alt="">
+                </a>
+                <h1 class="fl">杭州市公安局富阳区分局智慧消防监督管理平台</h1>
+            </div>
+            <div class="fr">
+                <!-- <div class="set-index fl">
+                    <span onclick="SetHome(this,window.location);">设为首页</span>
+                </div>
+                <div class="common-split-line fl"></div>
+                <div class="set-collect fl">
+                    <span onclick="AddFavorite()">加入收藏</span>
+                </div>
+                <div class="common-split-line fl"></div> -->
+                <div class="user fl">
+                    <div class="user-img fl">
+                        <img src="../../images/0_logo.png" alt="">
+                    </div>
+                    <span class="fl user-name"></span>
+                    <div class="user-more-tool">
+                        <div class="user-center">
+                            <img src="../../images/index_login/01-home-user.png">
+                            <span>个人中心</span>
+                        </div>
+                        <div class="user-logout">
+                            <img src="../../images/index_login/01-home-quicktime.png">
+                            <span>退出登录</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-login fl">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 头部结束 -->
+    <!-- 导航条开始 -->
+    <div class="nav">
+        <div class="nav_text warpper clearfix">
+            <div class="fl">
+                <a href="javascript:;">
+                    第三方消防中介智慧服务中心
+                </a>
+            </div>
+            <div class="fl active">
+                <a href="./index.html">
+                    产品采购
+                </a>
+            </div>
+            <div class="fl">
+                <a href="./admit_center.html">
+                    认证中心
+                </a>
+            </div>
+            <div class="fl">
+                <a href="./manage_mygoods.html">
+                    商家管理
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 导航条结束 -->
+    <!-- 内容开始 -->
+    <div class="warpper clearfix">
+        <div class="all_product clearfix">
+            <div class="all_product_left fl">
+                <div class="all_product_title">全国消防商品分类</div>
+                <ul class="goodsnav">
+                </ul>
+            </div>
+            <div class="all_product_right fl" style="width:928px;border:1px solid #dfdfdf;">
+                <div class="productdetailtop">
+                    <span>首页</span>
+                    <span> > </span>
+                    <span>产品列表</span>
+                    <span> > </span>
+                    <span class="goodsname"></span>
+                </div>
+                <div class="detail_goods">
+                    
+                </div>
+                <div class="otherdetail">
+                    <div>
+                        <div class="boundarypd tablecolumn clearfix">
+                            <div class="boundarypd1 tableswitch fl clickswitchtb">产品展示</div>
+                            <div class="boundarypd1 tableswitch fl">企业介绍</div>
+                            <div class="boundarypd1 tableswitch fl">评论</div>
+                        </div>
+                        <div class="aboutproductdetail">
+                        </div>
+                        <div class="aboutcompanypd" style="display:none;">
+                        </div>
+                        <div class="evaluate-list" style="display:none;">
+                            <div class="eval-list-cont">
+                                <div class="total-eval clearfix">
+                                    <div class="fl">
+                                        <h2 class="fl">评价得分：分</h2>
+                                        <ul class="fl total-scores">
+                                            <li class="score-item stared"></li>
+                                            <li class="score-item"></li>
+                                            <li class="score-item"></li>
+                                            <li class="score-item"></li>
+                                            <li class="score-item"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="fr">共<span id="totalEvalNum"></span>条评价</div>
+                                </div>
+                                <ul id="eval-lists">
+                                    
+                                </ul>
+                            </div>
+                            <!-- 分页开始 -->
+                            <div class="page_turn" style="text-align:center;">
+                                <div class="M-box">
+                                </div>
+                            </div>
+                            <div class="send-eval clearfix">
+                                <div class="eval-cont">
+                                    <textarea id="eval-cont" cols="30" placeholder="亲，说点什么吧，你的评价对其他买家很有帮助哦~"></textarea>
+                                </div>
+                                <div class="eval-score clearfix">
+                                    <div class="fl">商品评分：</div>
+                                    <ul class="set-score">
+                                        <li class="score-item"></li>
+                                        <li class="score-item"></li>
+                                        <li class="score-item"></li>
+                                        <li class="score-item"></li>
+                                        <li class="score-item"></li>
+                                    </ul>
+                                </div>
+                                <div class="clearfix">
+                                    <a href="javascript:;" class="send-eval-btn fr">提交评价</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+    <!-- 微信小图标开始 -->
+    <div class="wechatimg">
+        <img src="../../images/index_login/01-home-advisory.png" alt="图">
+    </div>
+    <!-- 底部开始 -->
+    <div class="common-foot" style="margin-top:22px;">
+        <div class="warpper">
+            <div class="fl common-company">                 <p>copyright@杭州富阳公安局</p>                 <p>地址：杭州市富阳区达夫路73号 电话：0571-63155714、0571-63155711</p>             </div>
+            <div class="fr">
+                <img src="../../images/index/0-login-xiaofang-icon.png" class="sign fl">
+                <img src="../../images/index/fuy_code.jpg" class="qrcode fl">
+                <p class="fl tips">扫码关注小程序获取更多服务</p>
+            </div>
+        </div>
+    </div>
+    <!-- 底部结束 -->
+</body>
+<script type="text/html" id="main-menu">
+    {{each list val index}}
+    <li class="all_product_name clearfix" data-categorytype="{{val.categoryType}}" data-categoryid="{{val.categoryId    }}">
+        <div class="fl">{{val.name}}</div>
+        <div class="fr">
+            <i class="iconfont">&#xe6c7;</i>
+        </div>
+        <div class="secondnav">
+            <ul class="clearfix">
+            </ul>
+        </div>
+    </li>
+    {{/each}}
+</script>
+<script type="text/html" id="detail-menu">
+    {{each list val index}}
+    <li class="goods-item fl" data-categorytype="{{val.categoryType}}" data-categoryid="{{val.categoryId}}">
+        <a href="#">{{val.name}}</a>
+    </li>
+    {{/each}}
+</script>
+<script type="text/html" id="goodsdetail">
+    <div class="clearfix">
+        <div class="showpdimg fl">
+            <img src="{{cover}}" alt="图">
+        </div>
+        <div class="fl">
+            <div class="showpdname">{{title}}</div>
+            <div class="productdnumber">
+                <span>商品编号 :&nbsp;</span>
+                <span>{{prductNo}}</span>
+            </div>
+            <div class="productdprice">
+                <span>价格 :&nbsp;</span>
+                <span class="productdpricecolor">¥{{price}}元</span>
+            </div>
+            <div class="productdexplain">
+                <span class="explaindetailtext">简介 :&nbsp;</span>
+                <span class="explaindetail">{{describe}}</span>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/html" id="toptitle">
+    <span>{{title}}</span>
+</script>
+<script type="text/html" id="productshow">
+    <p class="aboutexplainpd">{{describe}}</p>
+    <!-- <table class="productdetailtb">
+        <tr class="bordertd">
+            <td class="bordertd">型号规格</td>
+            <td class="bordertd">MFZ/ABC1</td>
+            <td class="bordertd">MFZ/ABC2</td>
+            <td class="bordertd">MFZ/ABC3</td>
+        </tr>
+        <tr class="bordertd">
+            <td class="bordertd">容量（L）</td>
+            <td class="bordertd">1.2</td>
+            <td class="bordertd">2.4</td>
+            <td class="bordertd">3.6</td>
+        </tr>
+        <tr class="bordertd">
+            <td class="bordertd">有效喷射时间（s）</td>
+            <td class="bordertd"> >8</td>
+            <td class="bordertd"> >8</td>
+            <td class="bordertd"> >13</td>
+        </tr>
+        <tr class="bordertd">
+            <td class="bordertd">有效喷射距离（m）</td>
+            <td class="bordertd" colspan="3"> >3.0</td>
+        </tr>
+        <tr class="bordertd">
+            <td class="bordertd">使用温度范围（℃）</td>
+            <td class="bordertd" colspan="3">-20~+55</td>
+        </tr>
+        <tr class="bordertd">
+            <td class="bordertd">灭火级别</td>
+            <td class="bordertd">1A 21B</td>
+            <td class="bordertd">1A 21B</td>
+            <td class="bordertd">2A 34B</td>
+        </tr>
+        <tr class="bordertd">
+            <td class="bordertd">工作压力（Mpa）</td>
+            <td class="bordertd" colspan="3">1.2</td>
+        </tr>
+        <tr class="bordertd">
+            <td class="bordertd">价格</td>
+            <td class="bordertd">55</td>
+            <td class="bordertd">65</td>
+            <td class="bordertd">78</td>
+        </tr>
+    </table> -->
+</script>
+<script type="text/html" id="companyintroduction">
+    <div>
+        <span>企业名称 :</span>
+        <span>{{companyName}}</span>
+    </div>
+    <div>
+        <span>地址 :</span>
+        <span>{{address}}</span>
+    </div>
+    <div>
+        <span>联系电话 :</span>
+        <span>{{companyMobilr}}</span>
+    </div>
+    <div>
+        <span>邮箱 :</span>
+        <span>{{email}}</span>
+    </div>
+    <div>
+        <span>企业代码 :</span>
+        <span>{{companyCode}}</span>
+    </div>
+    <div>
+        <span>企业介绍 :</span>
+        <span>{{describe}}</span>
+    </div>
+</script>
+<script type="text/html" id="eval">
+    {{each list val index}}
+    <li class="eval-list-item clearfix">
+        <div class="eval-user-img fl">
+            <img src="{{val.avatar}}" onerror="this.src='/images/avatar.gif'">
+        </div>
+        <div class="eval-detail fl">
+            <div class="eval-detail-top clearfix">
+                <div class="eval-user fl">
+                    <div class="eval-user-name">{{val.nickName || val.commentatorId}}</div>
+                    <div class="eval-user-time">{{val.createTime}}</div>
+                </div>
+                <div class="eval-item-score fr">
+                    <span class="fl">{{val.score > 5 ? 5 : val.score}}分</span>
+                    <ul class="clearfix eval-item-scores">
+                        <% var ns = val.score > 5 ? 5 : val.score %>
+                        <% for(var m = 0; m < ns; m++) { %>
+                        <li class="score-item {{val.score > 3 ? 'stared-green' : 'stared-red'}}"></li>
+                        <% } %>
+                        <% for(var m = 0; m < 5-ns; m++) { %>
+                        <li class="score-item"></li>
+                        <% } %>
+                    </ul>
+                </div>
+            </div>
+            <p class="eval-item-bottom">{{val.content}}</p>
+        </div>
+    </li>
+    {{/each}}
+</script>
+<script src="../../static/jquery.1.11.0.js"></script>
+<script src="../../static/jquery.pagination.min.js"></script>
+<script src="../../static/template.js"></script>
+<script src="../../js/common.js"></script> 
+<script src="../../js/SmartServiceCenter/product_details.js"></script>
+
+</html>

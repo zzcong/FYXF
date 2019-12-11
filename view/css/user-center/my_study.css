@@ -1,0 +1,45 @@
+.videoarea {
+    width:168px;
+    height:126px;
+    margin:0 20px 24px 24px;
+    border:1px solid #eee;
+}
+.videoarea img {
+    width:168px;
+    height:126px;
+    border:none;
+}
+.lilist {
+    padding-top:24px;
+}
+.liline {
+    margin:0 20px;
+    border-bottom: 1px dashed #dedede;
+}
+.lilist:hover {
+    background-color: #f6f6f6;
+}
+.videotitle {
+    font-size: 16px;
+    color:#585858;
+    line-height: 40px;
+    margin-bottom:50px;
+}
+.videofinish {
+    font-size: 12px;
+    color:#585858;
+    line-height: 36px;
+}
+.videodelete {
+    font-size: 14px;
+    color:#fff;
+    display:inline-block;
+    position:relative;
+    right:-590px;
+    bottom: 20px;
+    padding:6px 14px;
+    background-color: #4f90c6;
+}
+.page_turn {
+    text-align: center;
+}

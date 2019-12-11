@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>杭州市富阳区智慧消防平台</title>
+</head>
+<body>
+</body>
+<script src="./static/jquery.1.11.0.js"></script>
+<script src="./js/common.js"></script>
+<script>
+	(function (){
+	    $http({
+	        url: 'api/login',
+	        type: 'post',
+	        data: {
+	            mobile : '18500205033',
+	            password : '123456'
+	        },
+	        success: function (res) {
+	            if (res.msg != 'success') {
+	                alert(res.msg)
+	            } else {
+	                $(".accountnum").val('')
+	                $(".password").val('')
+	                window.sessionStorage.setItem('token',res.token)
+	                !!res.score ? window.sessionStorage.setItem('score',res.score) : null
+	                getUserInfo(function (res) {
+	                    window.sessionStorage.setItem('user', JSON.stringify(res.user))
+	                    window.location.href = './root.html'
+	                })
+	            }
+	            
+	        }
+	    })
+	})()
+	function getUserInfo (cb) {
+	    $http({
+	        url: 'api/user/userInfo',
+	        success: function (res) {
+	            if (res.msg == 'success') {
+	                cb(res)
+	            }
+	        }
+	    })
+	}
+</script>
+</html>

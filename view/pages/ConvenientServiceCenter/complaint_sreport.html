@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>智慧便民服务中心---投诉举报</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/ConvenientServiceCenter/index.css">
+    <link rel="stylesheet" href="../../css/ConvenientServiceCenter/complaint_sreport.css">
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <div class="common-head">
+        <div class="clearfix">
+            <div class="fl">
+                <a href="javascript:;" class="logo fl">
+                    <img src="../../images/0_logo.png" alt="">
+                </a>
+                <h1 class="fl">杭州市公安局富阳区分局智慧消防监督管理平台</h1>
+            </div>
+            <div class="fr">
+                <!-- <div class="set-index fl">
+                    <span onclick="SetHome(this,window.location);">设为首页</span>
+                </div>
+                <div class="common-split-line fl"></div>
+                <div class="set-collect fl">
+                    <span onclick="AddFavorite()">加入收藏</span>
+                </div>
+                <div class="common-split-line fl"></div> -->
+                <div class="user fl">
+                    <div class="user-img fl">
+                        <img src="../../images/0_logo.png" alt="">
+                    </div>
+                    <span class="fl user-name"></span>
+                    <div class="user-more-tool">
+                        <div class="user-center">
+                            <img src="../../images/index_login/01-home-user.png">
+                            <span>个人中心</span>
+                        </div>
+                        <div class="user-logout">
+                            <img src="../../images/index_login/01-home-quicktime.png">
+                            <span>退出登录</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-login fl">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 头部结束 -->
+    <!-- 导航条开始 -->
+    <div class="nav">
+        <div class="nav_text warpper clearfix">
+            <div class="convenient_center fl">
+                <a href="javascript:;">智慧便民服务中心</a>
+            </div>
+            <div class="online_do fl">
+                <a href="./index.html">网上办事</a>
+            </div>
+            <div class="appointment_visit fl">
+                <a href="./sappointment-list.html">预约参观</a>
+            </div>
+            <div class="complaints_report active fl">
+                <a href="./complaint_sreport.html">投诉举报</a>
+            </div>
+            <div class="call_us fl">
+                <a href="./call_us.html">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <!-- 导航条结束 -->
+    <!-- 中间内容开始 -->
+    <div class="warpper convenient_center_content clearfix">
+        <div class="content_left fl">
+            <div class="list-title">
+                <a href="http://www.zjzwfw.gov.cn/zjservice/dept/deptQueryMore.do?deptId=001008001010040&sxtypecode=01&webId=12&pageSize=5" target="_blank">
+                    <span>
+                        <img src="../../images/ConvenientServiceCenter/03-icon-01.png" alt="图">
+                    </span>&numsp;
+                    <span>消防行政许可受理</span>
+                </a>
+            </div>
+            <div class="list-title">
+                <a href="http://www.zjzwfw.gov.cn/zjservice/dept/deptQueryMore.do?deptId=001008001010040&sxtypecode=01&webId=12&pageSize=5#page=1" target="_blank">
+                    <span>
+                        <img src="../../images/ConvenientServiceCenter/03-icon-02.png" alt="图">
+                    </span>&numsp;
+                    <span>重点单位申报</span>
+                </a>
+            </div>
+            <div class="list-title">
+                <a href="http://www.zjzwfw.gov.cn/zjservice/dept/deptQueryMore.do?deptId=001008001010040&sxtypecode=01&webId=12&pageSize=5#page=2" target="_blank">
+                    <span class="online">
+                        <img src="../../images/ConvenientServiceCenter/03-icon-03.png" alt="图">
+                    </span>&numsp;
+                    <span>网上备案</span>
+                </a>
+            </div>
+            <div class="list-title">
+                <a href="http://www.zjzwfw.gov.cn/zjservice/dept/deptQueryMore.do?deptId=001008001010040&sxtypecode=03&webId=12&pageSize=5" target="_blank">
+                    <span>
+                        <img src="../../images/ConvenientServiceCenter/03-icon-04.png" alt="图">
+                    </span>&numsp;
+                    <span>办事指南</span>
+                </a>
+            </div>
+            <div class="list-title">
+                <a href="http://www.fuyang.gov.cn" target="_blank">
+                    <span>
+                        <img src="../../images/ConvenientServiceCenter/03-icon-05.png" alt="图">
+                    </span>&numsp;
+                    <span>其他服务</span>
+                </a>
+            </div>
+            <div class="list-title list-title_hover">
+                <a href="./call_us.html">
+                    <span>
+                        <img src="../../images/ConvenientServiceCenter/03-icon-06.png" alt="图">
+                    </span>&numsp;
+                    <span>联系我们</span>
+                </a>
+            </div>
+        </div>
+        <div class="content_right fl">
+            <div class="content-list">
+                <div class="sec_nav">
+                    <span>首页</span>
+                    <span>></span>
+                    <span>投诉举报</span>
+                </div>
+                <div>
+                    <div class="complaint_type">
+                        <span>投诉举报类型：</span>
+                        <select name="" id="report-type">
+                            <option style="font-color:#666;" value="公职违纪">公职违纪</option>
+                            <option style="font-color:#666;" value="消防隐患">消防隐患</option>
+                            <option style="font-color:#666;" value="火灾报警">火灾报警</option>
+                        </select>
+                    </div>
+                    <div class="complaint_say">
+                        <span>举报说明：</span>
+                        <textarea name="" id="report-desc" cols="30" rows="10" maxlength="100"></textarea>
+                    </div>
+                </div>
+                <div class="makesure">
+                    <button>确认</button>
+                </div>
+            </div>
+        </div>
+        <div class="content_right no-time fl">
+            举报功能不在开放时间，请稍后提交举报信息！
+        </div>
+    </div>
+    <!-- 微信小图标开始 -->
+    <div class="wechatimg">
+        <img src="../../images/index_login/01-home-advisory.png" alt="图">
+    </div>
+    <!-- 中间内容结束 -->
+    <!-- 底部开始 -->
+    <div class="common-foot">
+        <div class="warpper">
+            <div class="fl common-company">                 <p>copyright@杭州富阳公安局</p>                 <p>地址：杭州市富阳区达夫路73号 电话：0571-63155714、0571-63155711</p>             </div>
+            <div class="fr">
+                <img src="../../images/index/0-login-xiaofang-icon.png" class="sign fl">
+                <img src="../../images/index/fuy_code.jpg" class="qrcode fl">
+                <p class="fl tips">扫码关注小程序获取更多服务</p>
+            </div>
+        </div>
+    </div>
+    <!-- 底部结束 -->
+    <!-- 弹窗开始 -->
+    <div class="myconfirm">
+        <div class="white_div">
+            <div class="closedx">X</div>
+            <div class="confirm_tips">投诉举报成功!</div>
+        </div>
+    </div>
+    <!-- 弹窗结束 -->
+</body>
+<script src="../../static/jquery.1.11.0.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/ConvenientServiceCenter/complaint_sreport.js"></script>
+
+</html>

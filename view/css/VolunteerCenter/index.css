@@ -1,0 +1,116 @@
+.volunteercenter_out {
+    border:1px solid #e4e4e4;
+}
+.classifyfind {
+    color:#585858;
+    font-size: 14px;
+    line-height:24px;
+}
+.classifyout {
+    margin:0 24px;
+    border-bottom:1px solid #cfcfcf;
+    padding:24px 10px;
+}
+.classifyitem {
+    display:inline-block;
+    height:24px;
+    padding:0 26px;
+    margin:0 18px 14px 0px;
+    cursor: pointer;
+    text-align: center;
+}
+.classifyitem:hover {
+    color:#fff;
+    background-color: #4f90c6;
+}
+.specialmarg {
+    margin-bottom:-28px;
+}
+.beselected {
+    color:#fff;
+    background-color: #4f90c6;
+}
+.jointo {
+    border:1px solid #4f90c6;
+    padding:0 26px;
+    color:#5092c6;
+    position:relative;
+    right:-1032px;
+    bottom:10px;
+}
+.jointo:hover{
+    background-color: #f0f7fd;
+}
+/* 内容li开始 */
+.videoarea {
+    width:168px;
+    height:126px;
+    margin:0 20px 0 0;
+}
+.videoarea img {
+    width: 100%;
+    height: 100%;
+}
+.lilist {
+    padding-top:24px;
+}
+.liline {
+    margin:0 20px;
+    border-bottom: 1px dashed #dedede;
+}
+.lilist:hover {
+    background-color: #f6f6f6;
+}
+.act_videotitle {
+    font-size: 16px;
+    color:#585858;
+    line-height: 32px;
+}
+.lijoin {
+    font-size: 14px;
+    color:#fff;
+    display:inline-block;
+    position:relative;
+    right:-862px;
+    bottom: 20px;
+    padding:6px 26px;
+    background-color: #4f90c6;
+}
+.lijoin:hover {
+    background-color: #578ab5;
+}
+.lijoin_act {
+    font-size: 14px;
+    color:#fff;
+    display:inline-block;
+    position:relative;
+    right:-862px;
+    bottom: 20px;
+    padding:6px 14px;
+    background-color: #578ab5;
+}
+.whitebox_4 {
+    background-color: #fff;
+    padding:80px 0px;
+    margin:0 500px;
+    text-align: center;
+    font-size: 20px;
+    color:#666666;
+    line-height: 34px;
+}
+.closed {
+    display:inline-block;
+    position:relative;
+    font-size: 10px;
+    top:-84px;
+    right:-160px;
+    width:20px;
+    height:20px;
+    line-height: 20px;
+    border-radius: 50%;
+    color:#aeaeae;
+}
+.closed:hover {
+    background-color:#4e90c4;
+    color:#fff;
+}

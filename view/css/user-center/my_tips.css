@@ -1,0 +1,26 @@
+.liline {
+    margin:0 20px;
+    border-bottom: 1px dashed #dedede;
+}
+.tipsdiv {
+    padding:10px 0 1px 4px;
+}
+.tipslilist:hover {
+    background-color: #f6f6f6;
+}
+.act_videotitle {
+    font-size: 16px;
+    color:#585858;
+    line-height: 26px;
+}
+.tipstime {
+    font-size: 14px;
+    color:#585858;
+    display:inline-block;
+    position:relative;
+    right:-790px;
+    bottom: 14px;
+}
+.page_turn {
+    margin:40px 40%;
+}

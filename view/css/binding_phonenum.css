@@ -1,0 +1,85 @@
+body {
+    background-color: rgba(2,25,41,1);
+}
+input,button {
+    outline: none;
+}
+input {
+    padding-left:6px;
+    font-size: 16px;
+    color:#585858;
+    border:1px solid #ccc;
+    background-color: #eee;
+}
+.div_box {
+    width:1200px;
+    min-width:1200px;
+    max-width: 1366px;
+    margin:0 auto;
+}
+.toptext h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    margin:8% 0 50px 0;
+    color:#fff;
+}
+.phonenumber {
+    width:520px;
+    margin:0 auto;
+    padding-bottom:30px;
+}
+.phonenumber input {
+    width:400px;
+    height:40px;
+    margin-left:10px;
+}
+.phonenumber span {
+    color:#fff;
+    font-size: 20px;
+}
+.key_code {
+    width:520px;
+    margin:0 auto;
+    padding-bottom:60px;
+}
+.key_code input {
+    width:300px;
+    height:40px;
+    margin-left:10px;
+}
+.key_code span {
+    color:#fff;
+    font-size: 20px;
+}
+.key_code button {
+    width:90px;
+    height:40px;
+    border:none;
+    background-color: #4f91c7;
+    border-radius: 3px;
+    margin-left:6px;
+    color:#fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.key_code button:hover {
+    background-color: #16598f;
+}
+.upbtndiv {
+    width:200px;
+    margin:0 auto;
+}
+.upbtndiv button {
+    width:200px;
+    height:42px;
+    color: #fff;
+    background-color: #4f91c7;
+    cursor: pointer;
+    border:none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.upbtndiv button:hover {
+    background-color: #16598f;
+}

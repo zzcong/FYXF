@@ -1,0 +1,222 @@
+.all_product_title {
+    width:200px;
+    height: 40px;
+    font-size: 16px;
+    color:#fff;
+    line-height: 40px;
+    padding-left:20px;
+    background: #fff url(../../images/SmartServiceCenter/05-bg-02.png) no-repeat;
+}
+.goodsnav {
+    width:220px;
+    min-height:630px;
+}
+.goodsnav li {
+    cursor: pointer;
+}
+.all_product_left {
+    border:1px solid #ededed;
+    width:218px;
+}
+.all_product_name {
+    position: relative;
+    width:180px;
+    height: 40px;
+    padding:0 20px;
+    color:#595959;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom:1px solid #ededed;
+}
+.all_product_name div:first-child {
+    width:164px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.all_product_name:hover {
+    background-color: #f5f5f5;
+    color:#508fc4;
+}
+.all_product_right {
+    margin-left:20px;/*共同*/
+    width:928px;
+    border:1px solid #e0e0e0;
+}
+.secondnav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -474px;;
+    width: 460px;
+    padding-left: 16px;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    z-index: 10;
+}
+.goods-item {
+    height: 30px;
+    line-height: 30px;
+    border: none;
+}
+.secondnav a {
+    font-size: 12px;
+    padding: 0 16px;
+    color: #585858;
+} 
+.secondnav a:hover {
+    color:#508fc4;
+}
+/* manage_mygoods页样式开始 */
+input, button {
+    cursor: pointer;
+}
+.mygoodstop {
+    width:888px;
+    font-size: 14px;
+    line-height:49px;
+    padding-left:40px;
+    background-color: #e8e8e8;
+    border-bottom: 1px solid #e4e4e4;
+    color:#585858;
+    position:relative;
+}
+.allcheckbox {
+    margin-right:18px;
+    vertical-align: middle;
+}
+.alloptions {
+    font-size: 14px;
+    color:#31363a;
+}
+.product_add {
+    width:72px;
+    height:24px;
+    color:#585858;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    background-color: #e8e8e8;
+    position:absolute;
+    top:12px;
+    right:110px;
+}
+.product_add:hover {
+    background-color: #ccc;
+    color:#fff;
+}
+.betchdelete {
+    width:72px;
+    height:24px;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    color: #585858;
+    background-color: #e8e8e8;
+    position:absolute;
+    top:12px;
+    right:36px;
+}
+.betchdelete:hover {
+    background-color: #ccc;
+    color:#fff;
+}
+/* .checklabel {
+    position: relative;
+    cursor: pointer;
+}
+.allcheckgoods {
+    cursor: pointer;
+}
+.allcheckgoods:checked + .show-boxcheck {
+    background: #ec6337;
+}
+.show-boxcheck {
+    position: absolute;
+    top: 2px;;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    background: white; 
+}
+.show-boxcheck:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 3px; 
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+} */
+.mygoodsli li {
+    margin:0 26px 0 30px;
+    border-bottom: 1px dashed #c6c6c6;
+}
+.div_input {
+    padding:24px 24px 0 10px;
+}
+.mygoodsimg {
+    width:216px;
+    height:216px;
+    border:1px solid #ccc;
+    margin:24px 0 4px 0;
+}
+.mygoodsimg img {
+    width:216px;
+    height:216px;
+    border:none;
+}
+.myprice {
+    font-size:16px;
+    color:#b40c0c;
+    line-height: 36px;
+    margin-left:2px;
+}
+.myeqname {
+    width: 216px;
+    font-size: 14px;
+    color:#575757;
+    margin:0 0 24px 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+.mybutton {
+    position:relative;
+}
+.myeditdelete {
+    position:absolute;
+    right:10px;
+    bottom:-296px;
+}
+.myeditdelete button {
+    width:120px;
+    height:30px;
+    border:1px solid #f4f4f4;
+    font-size: 14px;
+}
+.myedit button {
+    background-color: #fff;
+    margin-bottom:10px;
+    color:#4e91c8;
+}
+.myedit button:hover {
+    background-color: #4f90c6;
+    color:#fff;
+}
+.mydelete button {
+    background-color: #fff;
+    color:#4e91c8;
+}
+.mydelete button:hover {
+    background-color: #4f90c6;
+    color:#fff;
+}
+.page_turn {
+    margin:46px 0 46px 470px;
+}

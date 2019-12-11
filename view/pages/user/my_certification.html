@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../static/iconfont_my/iconfont.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/user-center/user.css">
+    <link rel="stylesheet" href="../../css/user-center/my_certification.css">
+    <title>杭州市公安局富阳区分局智慧消防监督管理平台</title>
+</head>
+
+<body>
+    <div class="common-head">
+        <div class="clearfix">
+            <div class="fl">
+                <a href="javascript:;" class="logo fl">
+                    <img src="../../images/0_logo.png" alt="">
+                </a>
+                <h1 class="fl">杭州市公安局富阳区分局智慧消防监督管理平台</h1>
+            </div>
+            <div class="fr">
+                <!-- <div class="set-index fl">
+                    <span onclick="SetHome(this,window.location);">设为首页</span>
+                </div>
+                <div class="common-split-line fl"></div>
+                <div class="set-collect fl">
+                    <span onclick="AddFavorite()">加入收藏</span>
+                </div>
+                <div class="common-split-line fl"></div> -->
+                <div class="user fl">
+                    <div class="user-img fl">
+                        <img src="../../images/0_logo.png" alt="">
+                    </div>
+                    <span class="fl user-name"></span>
+                    <div class="user-more-tool">
+                        <div class="user-center">
+                            <img src="../../images/index_login/01-home-user.png">
+                            <span>个人中心</span>
+                        </div>
+                        <div class="user-logout">
+                            <img src="../../images/index_login/01-home-quicktime.png">
+                            <span>退出登录</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-login fl">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="warpper">
+        <div class="content clearfix">
+            <div class="fl menu">
+                <div class="menu-user">
+                    <div class="menu-user-img">
+                        <img src="../../images/0_logo.png" alt="">
+                    </div>
+                    <h2>个人中心</h2>
+                    <p>
+                        用户名：<span></span>
+                    </p>
+                </div>
+                <ul>
+                    <li class="menu-list">
+                        <a href="./index.html" class="">
+                            <img src="../../images/index_login/01-home-userfolder.png">
+                            <span>个人资料</span>
+                        </a>
+                    </li>
+                    <li class="menu-list">
+                        <a href="javascript:;" class="active">
+                            <img src="../../images/index_login/01-home-adminuser-click.png">
+                            <span>我的认证</span>
+                        </a>
+                    </li>
+                    <li class="menu-list">
+                        <a href="./my_study.html" class="">
+                            <img src="../../images/index_login/01-home-note-book.png">
+                            <span>我的学习</span>
+                        </a>
+                    </li>
+                    <li class="menu-list">
+                        <a href="./my_activities.html" class="">
+                            <img src="../../images/index_login/01-home-images.png">
+                            <span>我的活动</span>
+                        </a>
+                    </li>
+                    <li class="menu-list">
+                        <a href="./my_tips.html" class="">
+                            <img src="../../images/index_login/01-home-flag.png">
+                            <span>我的举报</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fl handle">
+                <div class="loction">
+                    <span>首页</span>
+                    >
+                    <span>个人中心</span>
+                    >
+                    <span>我的认证</span>
+                </div>
+                <div class="certification-form">
+                    <div class="certification-title clearfix">
+                        <div class="volunteertext certificationselected fl">志愿者认证</div>
+                        <div class="sellertext fl">合格服务商认证</div>
+                    </div>
+                    <div class="certification-volunteer divlist">
+                        <form action="" method="post"> 
+                            <p class="table_cell">
+                                <div class="cell_item">志愿者类型 :</div>
+                                <input type="text" name="" class="volunteertype cell_input" />
+                                <!-- <select name="" id="">
+                                    <option value="">普通志愿者认证</option>
+                                    <option value="">专业志愿者认证</option>
+                                </select> -->
+                            </p>
+                            <p class="table_cell">
+                                <div class="cell_item">姓名 :</div>
+                                <input type="text" name="" class="pname cell_input" />
+                            </p>
+                            <p class="table_cell">
+                                <div class="cell_item">身份证号 :</div>
+                                <input type="text" name="" class="idcardnum cell_input" />
+                            </p>
+                            <p class="table_cell">
+                                <div class="cell_item">资质名称 :</div>
+                                <input type="text" name="" class="qualificationsName cell_input" />
+                            </p>
+                            <p class="table_cell">
+                                <div class="cell_item">资质附件 :</div>
+                                <input type="text" name="" class="qualificationsFile cell_input cell_file" readonly />
+                                <a href="javascript:;" class="uploadbtn">
+                                    <i class="iconfont">&#xe663;</i>
+                                    点击上传
+                                </a>
+                                <input type="hidden" class="qualification-url" name="" />
+                                <input type="file" class="qualification-annex" name="" style="display: none"/>
+                            </p>
+                            <p class="table_cell">
+                                <div class="cell_item">资质附件简介 :</div>
+                                <textarea class="aboutenclosure cell_textarea" name="" id="" cols="30" rows="10"></textarea>
+                            </p>
+                            <p class="submitdiv">
+                                <button class="volunteersubmit certificatesubmit">确认申请</button>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="certification-seller divlist certificationhide">
+                        <form action="" method="post">
+                            <div>
+                                <p class="table_cell">
+                                    <!-- <div class="cell_item">服务商认证 :</div>
+                                    <input class="sellprove cell_input" type="text" name="" /> -->
+                                    <div class="cell_item" style="margin-top:34px;margin-bottom:-20px;">服务商认证 :</div>
+                                    <div class="sellercheck">
+                                        <div>
+                                            <input class="checkinput" type="checkbox" value="消防产品生产" name="pro_type">
+                                            <span>消防产品生产</span>
+                                            <input class="checkinput checkinputmargin" type="checkbox" name="pro_type" value="消防产品销售">
+                                            <span>消防产品销售</span>
+                                            <input class="checkinput checkinputmargin" type="checkbox" name="pro_type" value="消防施工服务">
+                                            <span>消防施工服务</span>
+                                        </div>
+                                        <div>
+                                            <input class="checkinput" type="checkbox" name="pro_type" value="消防维保服务">
+                                            <span>消防维保服务</span>
+                                            <input class="checkinput checkinputmargin" type="checkbox" name="pro_type" value="消防检测服务">
+                                            <span>消防检测服务</span>
+                                            <input class="checkinput checkinputmargin" type="checkbox" name="pro_type" value="其他消防服务">
+                                            <span>其他消防服务</span>
+                                        </div>
+                                    </div>
+                                </p>
+                                <div class="logo_out">
+                                    <div class="clearfix">
+                                        <div class="logotext fl">企业logo上传 :</div>
+                                        <div class="fl">
+                                            <div class="logoupload">
+                                                <img src="" alt="">
+                                            </div>
+                                            <a href="javascript:;" class="logo_uploadbtn">
+                                                上传
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="logo_care">请上传jpg、jpeg、png格式的图片</div>
+                                    <input class="companylogo" type="file" accept="image/*" name="" style="display: none" />
+                                </div>
+                                <p class="table_cell">
+                                    <div class="cell_item">申报单位 :</div>
+                                    <input class="sellercompany cell_input" type="text" name="" />
+                                </p>
+                                <p class="table_cell" style="padding-bottom:10px;">
+                                    <div class="cell_item">组织机构代码 :</div>
+                                    <input class="sellercompanynum cell_input" type="text" name="" />
+                                </p>
+                                <p class="table_cell" style="padding-top:10px;">
+                                    <div class="cell_item">邮编 :</div>
+                                    <input class="zipCode cell_input" type="text" name="" />
+                                </p>
+                                <p class="table_cell" style="padding-top:6px;">
+                                    <div class="cell_item">公司地址 :</div>
+                                    <select class="cell_selected" name="" id="company_address1">
+                                        <option value=""></option>
+                                    </select>
+                                    <select class="cell_selected" name="" id="company_address2">>
+                                        <option value="">请选择</option>
+                                    </select>
+                                    <select class="cell_selected" name="" id="company_address3">
+                                        <option value="">请选择</option>
+                                    </select>
+                                </p>
+                                <p class="table_cell" style="padding-top:6px;">
+                                    <div class="cell_item">详细地址 :</div>
+                                    <input class="dressdetail cell_input" type="text" name="" />
+                                </p>
+                                <p class="table_cell">
+                                    <div class="cell_item">成立日期 :</div>
+                                    <input type="text" onclick="WdatePicker()" class="cell_input starttime" placeholder="成立日期">
+                                </p>
+                                <p class="table_cell">
+                                    <div class="cell_item">是否成立分公司 :</div>
+                                    <div class="branchOffice cell_item_radio">
+                                        <input type="radio" value="1" name="branch_Office" />是
+                                        <input class="cell_radio_last" type="radio" value="2" name="branch_Office"/>否
+                                    </div>
+                                </p>
+                                <p class="table_cell">
+                                    <div class="cell_item">是否上市 :</div>
+                                    <div class="listedOffice cell_item_radio">
+                                        <input class="cell_radio" type="radio" value="1" name="listed_Office" />已上市
+                                        <input class="cell_radio_last" type="radio" value="2" name="listed_Office"/>未上市
+                                    </div>
+                                </p>
+                                <p class="table_cell">
+                                    <div class="cell_item">公司介绍 :</div>
+                                    <textarea class="aboutcompany cell_textarea" name="" id="" cols="30" rows="10"></textarea>
+                                </p>
+                            </div>
+                            <div class="callpersondiv">
+                                <div class="divtitle_out">
+                                    <p class="divtitletext">联系人信息</p>
+                                </div>
+                                <p class="table_cell personmargin">
+                                    <div class="cell_item">法人 :</div>
+                                    <input class="legalperson cell_input" type="text" name="" />
+                                </p>
+                                <p class="table_cell">
+                                    <div class="cell_item">单位电话 :</div>
+                                    <input class="companyphone cell_input" type="text" name="" />
+                                </p>
+                                <p class="table_cell">
+                                    <div class="cell_item">手机号 :</div>
+                                    <input class="personnum cell_input" type="text" name="" />
+                                </p>
+                                <p class="table_cell">
+                                    <div class="cell_item">邮箱 :</div>
+                                    <input class="mailbox cell_input" type="text" name="" />
+                                </p>
+                                <p class="table_cell">
+                                    <div class="cell_item">法人联系电话 :</div>
+                                    <input class="personalphone cell_input" type="text" name="" />
+                                </p>
+                            </div>
+                            <div>
+                                <div class="divtitle_out">
+                                    <p class="divtitletext">相关证件</p>
+                                </div>
+                                <div>
+                                    <div class="textareadiv">
+                                        <p class="">
+                                            <span class="titletext">法人身份证</span>&nbsp;&nbsp;
+                                            <span class="title_explain">请您上传清晰、无污物、完整的证件原件照片或彩色扫描件</span>
+                                        </p>
+                                        <div class="clearfix">
+                                            <div class="fl">
+                                                <div class="idcard1 imgcssdivone">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <a href="javascript:;" class="idcard1btn updownbtnone">
+                                                    上传
+                                                </a>
+                                                <input type="file" name="" class="idcard1input" style="display:none;">
+                                            </div>
+                                            <div class="fl">
+                                                <div class="idcard2 imgcssdivtwo">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <a href="javascript:;" class="idcard2btn updownbtntwo">
+                                                    上传
+                                                </a>
+                                                <input type="file" name="" class="idcard2input" style="display:none;">
+                                            </div>
+                                            <div class="fl">
+                                                <div class="idcardexample">示例</div>
+                                                <div class="clearfix">
+                                                    <div class="fl">
+                                                        <img class="idcard1big" src="../../images/index/01-idcrad_01.jpg" alt="">
+                                                        <div>
+                                                            <span>正面</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            <!-- <a href="javascript:;" class="idcardbig">查看大图</a> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <img class="idcard2big" src="../../images/index/01-idcard_02.png" alt="">
+                                                        <div>
+                                                            <span>反面</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            <!-- <a href="javascript:;" class="idcardbig">查看大图</a> -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="idcardcare imgformat">请上传jpg、jpeg、png格式的图片</div>
+                                    </div>
+                                    <div class="textareadiv">
+                                        <p>
+                                            <span class="titletext">企业营业资料信息</span>&nbsp;&nbsp;
+                                            <span class="title_explain">请您上传清晰、无污物、完整的证件原件照片（或加盖印章的复印件）或彩色扫描件</span>
+                                        </p>
+                                        <div>
+                                            <div class="companydataimg imgcssdivtwo">
+                                                <img src="" alt="">
+                                            </div>
+                                            <a href="javascript:;" class="companydatabtn updownbtntwo">
+                                                上传
+                                            </a>
+                                            <input type="file" name="" class="companydataup" style="display:none;">
+                                        </div>
+                                        <div class="companydatacare imgformat">请上传jpg、jpeg、png格式的图片</div>
+                                    </div>
+                                    <div class="textareadiv">
+                                        <div>
+                                            <div class="titletextone">非三证合一企业继续上传税务登记证、组织机构代码证</div>
+                                            <div class="title_explainone">请您上传清晰、无污物、完整的证件原件照片（或加盖印章的复印件）或彩色扫描件</div>
+                                        </div>
+                                        <div class="clearfix">
+                                            <div class="fl">
+                                                <div class="companytaximg imgcssdivone">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <a href="javascript:;" class="companytaxbtn updownbtnone">
+                                                    上传
+                                                </a>
+                                                <input type="file" name="" class="companytaxup" style="display:none;">
+                                            </div>
+                                            <div class="fl">
+                                                <div class="companyNumimg imgcssdivtwo">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <a href="javascript:;" class="companyNumbtn updownbtntwo">
+                                                    上传
+                                                </a>
+                                                <input type="file" name="" class="companyNumup" style="display:none;">
+                                            </div>
+                                        </div>
+                                        <div class="companyofcare imgformat">请上传jpg、jpeg、png格式的图片</div>
+                                    </div>
+                                    <div class="textareadiv">
+                                        <p>
+                                            <span class="titletext">资质证明</span>&nbsp;&nbsp;
+                                            <span class="title_explain">请您上传清晰、无污物、完整的证件原件照片（或加盖印章的复印件）或彩色扫描件</span>
+                                        </p>
+                                        <div class="clearfix">
+                                            <div class="fl">
+                                                <div class="qualifications1 imgcssdivone">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <a href="javascript:;" class="qualifications1btn updownbtnone">
+                                                    上传
+                                                </a>
+                                                <input type="file" name="" class="qualifications1up" style="display:none;">
+                                            </div>
+                                            <div class="fl">
+                                                <div class="qualifications2 imgcssdivtwo">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <a href="javascript:;" class="qualifications2btn updownbtntwo">
+                                                    上传
+                                                </a>
+                                                <input type="file" name="" class="qualifications2up" style="display:none;">
+                                            </div>
+                                        </div>
+                                        <div class="qualificationsofcare imgformat">请上传jpg、jpeg、png格式的图片</div>
+                                        <!-- <div class="specialmargin">
+                                            <p class="table_cell">
+                                                <div class="cell_item">证书名称 :</div>
+                                                <input class="certname cell_input" type="text" name="" />
+                                            </p>
+                                            <p class="table_cell">
+                                                <div class="cell_item">证书编号 :</div>
+                                                <input class="certnumber cell_input" type="text" name="" />
+                                            </p>
+                                            <p class="table_cell">
+                                                <div class="cell_item">添加资质 :</div>
+                                                <input class="addqualificationsinput cell_input" type="text" name="" style="display: none;"/>
+                                                <a href="javascript:;" class="addqualifications">
+                                                    <i class="iconfont">&#xe663;</i>
+                                                    <span>添加资质</span>
+                                                </a>
+                                                <input class="addqualificationsup" type="file" name="" style="display:none;"/>
+                                            </p>
+                                            <div>
+                                                <input type="text" class="qualificationsname cell_input" style="display: none;" readonly />
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="submitout">
+                                <button class="sellsubmit certificatesubmit">确认申请</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="common-foot">
+        <div class="warpper">
+            <div class="fl common-company">                 <p>copyright@杭州富阳公安局</p>                 <p>地址：杭州市富阳区达夫路73号 电话：0571-63155714、0571-63155711</p>             </div>
+            <div class="fr">
+                <img src="../../images/index/0-login-xiaofang-icon.png" class="sign fl">
+                <img src="../../images/index/fuy_code.jpg" class="qrcode fl">
+                <p class="fl tips">扫码关注小程序获取更多服务</p>
+            </div>
+        </div>
+    </div>
+    <script src="../../static/jquery.1.11.0.js"></script>
+    <script src="../../static/My97DatePicker/WdatePicker.js"></script>
+    <script src="../../js/common.js"></script>
+    <script src="../../js/user/my_certification.js"></script>
+</body>
+
+</html>

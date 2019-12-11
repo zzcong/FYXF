@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../static/iconfont_my/iconfont.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/user-center/user.css">
+    <link rel="stylesheet" href="../../css/VolunteerCenter/general_authentication.css">
+    <title>杭州市公安局富阳区分局智慧消防监督管理平台</title>
+</head>
+
+<body>
+    <div class="common-head">
+        <div class="clearfix">
+            <div class="fl">
+                <a href="javascript:;" class="logo fl">
+                    <img src="../../images/0_logo.png" alt="">
+                </a>
+                <h1 class="fl">杭州市公安局富阳区分局智慧消防监督管理平台</h1>
+            </div>
+            <div class="fr">
+                <!-- <div class="set-index fl">
+                    <span onclick="SetHome(this,window.location);">设为首页</span>
+                </div>
+                <div class="common-split-line fl"></div>
+                <div class="set-collect fl">
+                    <span onclick="AddFavorite()">加入收藏</span>
+                </div>
+                <div class="common-split-line fl"></div> -->
+                <div class="user fl">
+                    <div class="user-img fl">
+                        <img src="../../images/0_logo.png" alt="">
+                    </div>
+                    <span class="fl user-name"></span>
+                    <div class="user-more-tool">
+                        <div class="user-center">
+                            <img src="../../images/index_login/01-home-user.png">
+                            <span>个人中心</span>
+                        </div>
+                        <div class="user-logout">
+                            <img src="../../images/index_login/01-home-quicktime.png">
+                            <span>退出登录</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-login fl">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 导航条开始 -->
+    <div class="nav">
+        <div class="nav_text warpper clearfix">
+            <div class="convenient_center fl">
+                <a href="javascript:;">消防志愿者智慧中心</a>
+            </div>
+            <div class="online_do fl">
+                <a href="./index.html">活动中心</a>
+            </div>
+            <div class="appointment_visit fl active">
+                <a href="./general_authentication.html">认证中心</a>
+            </div>
+            <div class="appointment_visit fl">
+                <a href="./general_score.html">积分中心</a>
+            </div>
+            <p class="score_num fr">
+                <span>普通志愿者</span> --- 我的积分：<span class="score"></span>
+            </p>
+        </div>
+    </div>
+    <!-- 导航条结束 -->
+    <div class="warpper">
+        <div class="content clearfix">
+            <div class="fl menu">
+                <div class="menu-general">
+                    <span>认证中心</span>
+                </div>
+                <ul>
+                    <li class="menu-list">
+                        <a href="./general_authentication.html" class="active">
+                            <img src="../../images/SmartServiceCenter/04-icon-01-click.png">
+                            <span>普通志愿者认证</span>
+                        </a>
+                    </li>
+                    <li class="menu-list">
+                        <a href="./professional_accreditation.html" class="">
+                            <img src="../../images/SmartServiceCenter/04-icon-02.png">
+                            <span>专业志愿者认证</span>
+                        </a>
+                    </li>
+                </ul> 
+            </div>
+            <div class="fl handle">
+                <div>
+                    <p class="welcometext">欢迎参加认证，成为一名合格的志愿者，获得更多专业与学习机会。</p>
+                    <form action="" method="post">
+                        <p class="table_cell">
+                            <div class="cell_item"><i class="required">*</i>姓名 :</div>
+                            <input type="text" name="" class="pname cell_input" />
+                        </p>
+                        <p class="table_cell">
+                            <div class="cell_item"><i class="required">*</i>身份证号 :</div>
+                            <input type="text" name="" class="idcardnum cell_input" />
+                        </p>
+                        <p class="table_cell">
+                            <div class="cell_item"><i class="required">*</i>资质名称 :</div>
+                            <input type="text" name="" class="zizhiname cell_input" />
+                        </p>
+                        <p class="table_cell">
+                            <div class="cell_item"><i class="required">*</i>资质附件 :</div>
+                            <input type="text" name="" class="cell_input cell_file" disabled readonly />
+                            <input type="hidden" class="zizhifilrurl">
+                            <a href="javascript:;" class="uploadbtn">
+                                <i class="iconfont">&#xe663;</i>
+                                点击上传
+                            </a>
+                            <input type="file" class="qualification-annex" name="" style="display: none"/>
+                        </p>
+                        <p class="table_cell">
+                            <div class="cell_item">资质附件简介 :</div>
+                            <textarea class="aboutenclosure cell_textarea" name="" id="" cols="30" rows="10"></textarea>
+                        </p>
+                        <p class="submitdiv">
+                            <button class="certificatesubmit">确认申请</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="common-foot">
+        <div class="warpper">
+            <div class="fl common-company">                 <p>copyright@杭州富阳公安局</p>                 <p>地址：杭州市富阳区达夫路73号 电话：0571-63155714、0571-63155711</p>             </div>
+            <div class="fr">
+                <img src="../../images/index/0-login-xiaofang-icon.png" class="sign fl">
+                <img src="../../images/index/fuy_code.jpg" class="qrcode fl">
+                <p class="fl tips">扫码关注小程序获取更多服务</p>
+            </div>
+        </div>
+    </div>
+    <script src="../../static/jquery.1.11.0.js"></script>
+    <script src="../../js/common.js"></script>
+    <script src="../../js/VolunteerCenter/general_authentication.js"></script>
+</body>
+
+</html>

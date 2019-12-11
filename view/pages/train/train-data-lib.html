@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../static/iconfont_my/iconfont.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/pagination.css">
+    <link rel="stylesheet" href="../../css/train/train_data_lib.css">
+    <title>杭州市公安局富阳区分局智慧消防监督管理平台</title>
+</head>
+
+<body>
+    <div class="common-head">
+        <div class="clearfix">
+            <div class="fl">
+                <a href="javascript:;" class="logo fl">
+                    <img src="../../images/0_logo.png" alt="">
+                </a>
+                <h1 class="fl">杭州市公安局富阳区分局智慧消防监督管理平台</h1>
+            </div>
+            <div class="fr">
+                <!-- <div class="set-index fl">
+                    <span onclick="SetHome(this,window.location);">设为首页</span>
+                </div>
+                <div class="common-split-line fl"></div>
+                <div class="set-collect fl">
+                    <span onclick="AddFavorite()">加入收藏</span>
+                </div>
+                <div class="common-split-line fl"></div> -->
+                <div class="user fl">
+                    <div class="user-img fl">
+                        <img src="../../images/0_logo.png" alt="">
+                    </div>
+                    <span class="fl user-name"></span>
+                    <div class="user-more-tool">
+                        <div class="user-center">
+                            <img src="../../images/index_login/01-home-user.png">
+                            <span>个人中心</span>
+                        </div>
+                        <div class="user-logout">
+                            <img src="../../images/index_login/01-home-quicktime.png">
+                            <span>退出登录</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-login fl">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 导航条开始 -->
+    <div class="nav">
+        <div class="nav_text warpper clearfix">
+            <div class="fl">
+                <a href="javascript:;">
+                    消防安全教育培训中心
+                </a>
+            </div>
+            <div class="fl">
+                <a href="./index.html">
+                    培训中心
+                </a>
+            </div>
+            <div class="fl">
+                <a href="./examCenter.html">
+                    考试中心
+                </a>
+            </div>
+            <div class="fl">
+                <a href="./knowledge.html">
+                    知识库
+                </a>
+            </div>
+            <div class="fl active">
+                <a href="#">
+                    消防资料库
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 导航条结束 -->
+    <div class="warpper">
+        <div class="train_data_libtop">
+            <span>首页</span>
+            <span> > </span>
+            <span>消防安全教育培训中心</span>
+            <span> > </span>
+            <span>知识库</span>
+            <span> > </span>
+            <span>消防资料库</span>
+        </div>
+        <div class="clearfix">
+            <div class="fl" style="border:1px solid #ccc;">
+                <div>
+                    <div class="classify_fire">分类</div>
+                    <ul class="allclassify clearfix">
+                        <!-- <li class="classifywidth fl">
+                            <span class="classify_name classify_nameact">一级注册消防工程师</span>
+                        </li> -->
+                    </ul>
+                    <div>
+                        <ul class="train_lib_list">
+                            <!-- <li>
+                                <div class="lib_line">
+                                    <div class="lib_title">
+                                        <img src="../../images/train/02-icon-word.png" alt="图">
+                                        <span>关于北京东方化工厂“627”特大火灾事故分析结论意见及其技术依据的简介</span>
+                                    </div>
+                                    <div class="lib_subtext">关于北京东方化工厂“627”特大火灾事故分析结论意见及其技术依据的简介</div>
+                                    <div class="lib_others">
+                                        <span>上传者 : </span>
+                                        <span>管理员</span>&nbsp;&nbsp;
+                                        <span>下载次数 : </span>
+                                        <span>8</span>&nbsp;&nbsp;
+                                        <span>上传日期 : </span>
+                                        <span>2017-06-30</span>
+                                    </div>
+                                    <button class="lib_download">
+                                        <i class="iconfont">&#xe60b;</i>
+                                        下载
+                                    </button>
+                                </div>
+                            </li> -->
+                        </ul>
+                        <!-- 分页开始 -->
+                        <div class="page clearfix">
+                            <div class="M-box">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rankinglist fr">
+                <div>
+                    <div class="rankingtitle">下载排行</div>
+                    <ul class="rankingli">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="common-foot" style="margin-top:24px;">
+        <div class="warpper">
+            <div class="fl common-company">                 <p>copyright@杭州富阳公安局</p>                 <p>地址：杭州市富阳区达夫路73号 电话：0571-63155714、0571-63155711</p>             </div>
+            <div class="fr">
+                <img src="../../images/index/0-login-xiaofang-icon.png" class="sign fl">
+                <img src="../../images/index/fuy_code.jpg" class="qrcode fl">
+                <p class="fl tips">扫码关注小程序获取更多服务</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/html" id="classifywidth">
+    {{each list val}}
+        <li class="classifywidth fl" data-id="{{val.categoryId}}">
+            <span class="classify_name">{{val.name}}</span>
+        </li>
+    {{/each}}
+</script>
+<script type="text/html" id="data-list">
+    {{each list val}}
+    <li data-id="{{val.informationId}}">
+        <div class="lib_line">
+            <div class="lib_title">
+                <img src="../../images/train/02-icon-word.png" style="vertical-align: top;" alt="图">
+                <span>{{val.title}}</span>
+            </div>
+            <div class="lib_subtext">{{val.describe}}</div>
+            <div class="lib_others">
+                <span>上传者 : </span>
+                <span>{{val.userId}}</span>&nbsp;&nbsp;
+                <span>下载次数 : </span>
+                <span>{{val.downloadNum}}</span>&nbsp;&nbsp;
+                <span>上传日期 : </span>
+                <span>{{val.openTime}}</span>
+            </div>
+            {{if val.fileUrl}}
+            <button class="lib_download" data-file-id="{{val.fileUrl}}" data-name="{{title}}">
+                <i class="iconfont">&#xe60b;</i>
+                下载
+            </button>
+            {{ else }}
+            <button class="lib_download" title="无下载附件" disabled>
+                <i class="iconfont">&#xe60b;</i>
+                下载
+            </button>
+            {{/if}}
+        </div>
+    </li>
+    {{/each}}
+</script>
+<script type="text/html" id="download-list">
+    {{each list val index}}
+        {{if val.fileUrl}}
+        <li data-id="{{val.informationId}}" data-file-url="{{val.fileUrl}}">
+            <span class="numclass">{{index + 1}}</span>
+            <div class="rankingother">
+                <span class="classimgdiv">
+                    <img src="../../images/train/02-icon-word.png" style="vertical-align: middle;" alt="图">
+                </span>
+                <span class="numclasstitle">{{val.title}}</span>
+            </div>
+        </li>
+        {{ else }}
+        <li data-id="{{val.informationId}}" title="无下载附件">
+            <span class="numclass">{{index + 1}}</span>
+            <div class="rankingother">
+                <span class="classimgdiv">
+                    <img src="../../images/train/02-icon-word.png" style="vertical-align: middle;" alt="图">
+                </span>
+                <span class="numclasstitle">{{val.title}}</span>
+            </div>
+        </li>
+        {{/if}}
+    {{/each}}
+</script>
+<script src="../../static/jquery.1.11.0.js"></script>
+<script src="../../static/jquery.pagination.min.js"></script>
+<script src="../../static/template.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/train/train-data-lib.js"></script>
+</html>

@@ -1,0 +1,289 @@
+.all_product_title {
+    width:200px;
+    height: 40px;
+    font-size: 16px;
+    color:#fff;
+    line-height: 40px;
+    padding-left:20px;
+    background: #fff url(../../images/SmartServiceCenter/05-bg-02.png) no-repeat;
+}
+.goodsnav {
+    width:220px;
+    height:630px;
+}
+.goodsnav li {
+    cursor: pointer;
+}
+.all_product_left {
+    border:1px solid #ededed;
+    width:218px;
+}
+.all_product_name {
+    position: relative;
+    width:180px;
+    height: 40px;
+    padding:0 20px;
+    color:#595959;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom:1px solid #ededed;
+}
+.all_product_name div:first-child {
+    width:164px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.all_product_name:hover {
+    background-color: #f5f5f5;
+    color:#508fc4;
+}
+.secondnav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -474px;;
+    width: 460px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    z-index: 10;
+}
+.goods-item {
+    height: 30px;
+    line-height: 30px;
+    border: none;
+}
+.secondnav a {
+    font-size: 12px;
+    padding: 0 16px;
+    color: #585858;
+} 
+.secondnav a:hover {
+    color:#508fc4;
+}
+.all_product_right {
+    margin-left:20px;
+}
+/* product_details页样式开始 */
+.productdetailtop {
+    width:898px;
+    font-size: 16px;
+    line-height: 56px;
+    padding-left:30px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #f6f6f6;
+    color:#585858;
+}
+.showpdimg {
+    width:350px;
+    height:350px;
+    background-color: #e8e7ed;
+    margin:30px 32px 48px 28px;
+}
+.showpdimg img {
+    width:350px;
+    height:350px;
+    border:none;
+}
+.showpdname {
+    margin:30px 0 10px 0;
+    font-size: 26px;
+    color:#575757;
+    line-height: 46px;
+}
+.productdnumber {
+    color:#575757;
+    font-size: 14px;
+    line-height: 34px;
+}
+.productdprice {
+    color:#575757;
+    font-size: 14px;
+    line-height: 34px;
+}
+.productdpricecolor {
+    color:#b10d0b;
+    font-size: 20px;
+}
+.productdexplain {
+    color:#575757;
+    font-size: 14px;
+    line-height: 34px;
+    position: relative;
+}
+.explaindetailtext {
+    display:inline-block;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.explaindetail {
+    display:inline-block;
+    width:460px;
+    margin-left:44px;
+    overflow: hidden;    
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; 
+}
+.boundarypd {
+    height:50px;
+    margin:0 46px 28px 30px;
+    border-bottom: 1px dashed #ccc;
+    font-size: 22px;
+    color:#585858;
+}
+.boundarypd1 {
+    height:24px;
+    padding:14px 46px 14px 40px;
+    cursor: pointer;
+}
+.boundarypd1:hover {
+    height:24px;
+    color:#508fc4;
+    border-bottom: 4px solid #508fc4;
+    padding:14px 46px 10px 40px;
+}
+.clickswitchtb {
+    height:24px;
+    color:#508fc4;
+    border-bottom: 4px solid #508fc4;
+    padding:14px 46px 10px 40px;
+}
+.aboutproductdetail,
+.evaluate-list {
+    margin-left:46px;
+}
+.aboutexplainpd {
+    text-indent: 28px;
+    font-size: 14px;
+    color:#303030;
+    line-height: 30px;
+    margin-right: 52px;
+    margin-bottom: 18px;
+}
+.productdetailtb {
+    border:1px solid #494949;
+    color:#3c3c3c;
+    width:830px;
+    font-size:16px;
+    line-height:26px;
+    margin-bottom: 70px;
+}
+.bordertd {
+    border:1px solid #535353;
+    padding-left:8px;
+}
+.aboutcompanypd {
+    font-size: 14px;
+    color:#575757;
+    line-height: 30px;
+    margin-left:46px;
+    height:420px;
+}
+.send-eval {
+    padding: 20px 0;
+}
+.evaluate-list {
+    margin-right: 52px;
+}
+.evaluate-list textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #303030;
+}
+.score-item {
+    float: left;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 5px 0;
+    background-image: url(../../images/SmartServiceCenter/five_star_em.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: center;
+}
+.eval-list-item {
+    padding-top: 15px;
+}
+.eval-score .fl {
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+    margin-right: 10px;
+}
+.send-eval-btn {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #508fc4;
+}
+.eval-user-img {
+    width: 50px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.eval-user-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+.eval-detail {
+    width: 760px;
+}
+
+.eval-detail-top {
+    font-size: 14px;
+    line-height: 25px;
+    color: #333;
+}
+.eval-item-score {
+    width: 200px;
+    height: 30px;
+    padding: 10px 0;
+}
+.eval-item-score span {
+    line-height: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.eval-item-bottom {
+    font-size: 14px;
+    line-height: 20px;
+    color: #303030;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+}
+.total-eval {
+    line-height: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #999;
+}
+.total-eval h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+.stared {
+    background-image: url(../../images/SmartServiceCenter/five_star.png);
+    background-size: 24px 24px;
+}
+.stared-red {
+    background-image: url(../../images/SmartServiceCenter/star_red.png);
+    background-size: 24px 24px;
+}
+.stared-green {
+    background-image: url(../../images/SmartServiceCenter/star_green.png);
+    background-size: 24px 24px;
+}

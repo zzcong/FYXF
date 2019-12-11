@@ -1,0 +1,198 @@
+input,select,button {
+    outline: none;
+}
+.knowledgetop {
+    font-size: 14px;
+    color:#585858;
+    border-bottom:1px solid #cfcfcf;
+    padding-bottom:26px;
+    margin-bottom:24px;
+}
+.knowledgetop>span:nth-child(2n-1) {
+    cursor: pointer;
+}
+.knowledgesearchdiv {
+    font-size: 12px;
+    color:#585858;
+    height:52px;
+    line-height: 52px;
+    background-color: #f6f6f6;
+    padding-left: 12px;
+}
+.dangertype {
+    width:114px;
+    height:26px;
+    margin:0 24px 0 12px;
+}
+.nameinchina {
+    width:106px;
+    height:22px;
+    margin:0 24px 0 12px;
+    padding-left: 4px;
+}
+.statusselect {
+    width:114px;
+    height:26px;
+    margin:0 24px 0 12px;
+}
+.storagebag {
+    width:106px;
+    height:22px;
+    margin:0 24px 0 12px;
+    padding-left: 4px;
+}
+.dangerspecial {
+    width:106px;
+    height:22px;
+    margin:0 24px 0 12px;
+    padding-left: 4px;
+}
+.searchbtn {
+    width:62px;
+    height:26px;
+    background-color: #4f92c9;
+    border:none;
+    color:#fff;
+    font-size: 14px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.searchbtn i {
+    vertical-align: middle;
+}
+.searchbtn:hover {
+    background-color: #5689b4;
+}
+.resetbtn {
+    width:62px;
+    height:26px;
+    background-color: #fff;
+    border:none;
+    color:#4f92c9;
+    font-size: 14px;
+    cursor: pointer;
+}
+.resetbtn i {
+    vertical-align: middle;
+}
+.resetbtn:hover {
+    background-color: #e9e9eb;
+}
+.tableline {
+    border:1px solid #e4e4e4;
+}
+.classtable {
+    width:1200px;
+    text-align:left;
+    color:#585858;
+    font-size: 14px;
+}
+.classtable input {
+    cursor: pointer;
+    vertical-align: middle;
+    margin:0 0 0 44px;
+    background-color: #fff;
+}
+.classtable th:first-child {
+    width:7%;
+}
+.classtable th:last-child {
+    width:17%;
+}
+.classtabletop {
+    background-color:#e8e8e8;
+    height:50px;
+}
+/* .classtable tbody {
+    margin-left:20px;
+} */
+.classtable tbody tr {
+    border-bottom:1px dashed #c7c7c7;
+    height:58px;
+    cursor: pointer;
+}
+.classtable>tbody>tr:hover {
+    background-color: #dde6e3;
+}
+.classtable>tbody>tr:nth-last-child(1) {
+    border-bottom:none;
+}
+.addanddel {
+    height:46px;
+    padding-left:44px;
+    font-size: 14px;
+    color:#585858;
+    margin-top:14px;
+}
+.addtr {
+    display:inline-block;
+    height:24px;
+    padding:0 10px;
+    line-height:24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.addtr:hover {
+    background-color: #b2b2b2;
+    border-radius: 2px;
+    color:#fff;
+}
+.deletetrs {
+    display:inline-block;
+    height:24px;
+    padding:0 10px;
+    background-color: #b2b2b2;
+    line-height:24px;
+    color:#fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.pagebox {
+    position:relative;
+    height:90px;
+}
+.knowledgepage_turn {
+    position: absolute;
+    bottom:20px;
+    right:8px;
+}
+.knowledgedown {
+    margin-right: 20px;
+    color:#4f91c7;
+    font-size: 14px;
+}
+.knowledgedown i {
+    vertical-align: middle;
+    font-size: 14px;
+}
+.knowledgechange {
+    margin-right: 20px;
+    color:#4f91c7;
+    font-size: 14px;
+}
+.knowledgechange i {
+    vertical-align: middle;
+}
+.knowledgedelete {
+    color:#4f91c7;
+    font-size: 14px;
+}
+.knowledgedelete i {
+    vertical-align: middle;
+}
+.knowledgetddiv {
+    width:150px;
+    padding-left: 20px;
+    height:50px;
+    overflow: hidden;
+    line-height: 50px;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.down_annex a {
+    color:#4f90c6;
+}
+.down_annex i {
+    font-size: 12px;
+    vertical-align: middle;
+}

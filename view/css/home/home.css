@@ -1,0 +1,300 @@
+html {
+    min-height: 100%;
+    max-height: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-image: url('../../images/index/0-home-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    position: relative;
+    box-sizing: border-box;
+    padding: 122px 0;
+    width: 100%;
+    min-height: 100%;
+}
+.warpper-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -202px;
+    margin-left: -600px;
+}
+.zc-head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 122px;
+    background-image: url(../../images/index/0-index-head.png);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+}
+.zc-head > div {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.zc-logo a {
+    display: block;
+    height:122px;
+    padding-left: 88px;
+    margin-right: 10px;
+    font-size: 44px;
+    line-height: 122px;
+    text-align: center;
+}
+.logoimg {
+    height: 80px;
+    margin-top: 21px;
+    vertical-align: top;
+}
+.zc-logo h1 {
+    line-height: 122px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: #9cc1d1;
+}
+.zc-tool {
+    font-size: 16px;
+    line-height: 122px;
+    color: #9cc1d1;
+    background-repeat: no-repeat;
+    background-position: -10px center;
+    cursor: pointer;
+}
+.tool-one {
+    padding: 0 4px 0 32px;
+    background-image: url(../../images/index/0-login-home.png);
+}
+.tool-two {
+    padding: 0 4px 0 36px;
+    background-image: url(../../images/index/0-login-favourite.png);
+}
+.tool-three {
+    padding: 0 48px 0 4px;
+}
+.zc-tool-line {
+    width: 30px;
+    height: 122px;
+    background-image: url('../../images/index/0-login-line2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.zc-tool:hover {
+    color: #ccf5f7;
+    text-shadow: 0 0 10px #ccf5f7;
+}
+.tool-one:hover {
+    background-image: url(../../images/index/0-login-home-hover.png);
+}
+.tool-two:hover {
+    background-image: url(../../images/index/0-login-favourite-hover.png);
+}
+.sign-in {
+    display: none;
+    position: relative;
+}
+.user-img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    margin-top: 34px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../../images/0_logo.png);
+}
+.user-tools {
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 148px;
+    z-index: 3;
+}
+.user-tools li {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #585858;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.user-tools li:first-child {
+    border-bottom: none;
+}
+.user-tools li img {
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+.user-tools li:hover {
+    background-color: #eee;
+}
+
+.menus {
+}
+.menus li {
+    width: 300px;
+    height: 201px;
+    float: left;
+    cursor: pointer;
+}
+.menus li img {
+    width: 100%;
+}
+.info {
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/index/0-login-information.png);
+}
+.info:hover {
+    background-image: url(../../images/index/0-login-information-hover.png);
+}
+
+
+.zc-foot {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 122px;
+   background-image: url(../../images/index/0-index-foot.png);
+   background-position: top left;
+   background-repeat: repeat-x;
+}
+.company {
+    padding: 37px 0;
+    line-height: 24px;
+    font-size: 16px;
+    color: #9cc1d1;
+}
+.contact {
+    margin-top: 16px;
+}
+.contact img {
+    width: 90px;
+    height: 90px;
+}
+img.sign {
+    margin-right: 30px;
+}
+img.qr-code {
+    margin-right: 20px;
+}
+.contact p {
+    width: 120px;
+    margin-top: 16px;
+    font-size: 16px;
+    color: #9cc1d1;
+    line-height: 28px;
+}
+
+.fixed-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b5;
+    text-align: center;
+    z-index: 1;
+}
+.login .title {
+    color: #fff;
+    font-size: 28px;
+    padding-top: 10%;
+    padding-bottom: 50px;
+}
+.login-qrcode {
+    width: 290px;
+    height: 290px;
+    margin-bottom: 30px;
+}
+.login-tips {
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    line-height: 60px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 60px;
+    background-color: #000000c1;
+}
+.volunteer .model {
+    width: 430px;
+    height: 220px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 200px auto;
+}
+.model-head {
+    text-align: right;
+}
+.model-head span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    color: #aeaeae;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.model-content p {
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+    line-height: 30px;
+    color: #666666;
+    font-size: 18px;
+}
+.model-content a {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 42px;
+    border-radius: 2px;
+    background-color: #4f91c7;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 42px;
+}
+.audit-model {
+    width: 430px;
+    height: 220px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 200px auto;
+}
+.audit-head {
+    height: 44px;
+    border-bottom: 1px solid #e5e5e4;
+}
+.audit-head .title {
+    color: #4f91c7;
+    font-size: 14px;
+    padding-left: 24px;
+    line-height: 44px;
+}
+.audit-close {
+    padding: 0 14px;
+    line-height: 44px;
+    color: #aeaeae;
+}
+.audit-content {
+    width: 260px;
+    margin: 50px auto 0;
+    line-height: 30px;
+    font-size: 20px;
+    color: #585858;
+}

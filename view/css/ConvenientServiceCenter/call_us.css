@@ -1,0 +1,19 @@
+.callus_content ul {
+    padding-top: 50px;
+    margin:0px 30px;
+    font-size:16px;
+    color:#585858;
+    line-height: 50px;
+}
+.callus_content ul li {
+    text-indent:14px;
+    overflow: hidden;
+}
+.callus_content li span:nth-child(1) {
+    float: left;
+    width: 100px;
+    text-align: right;
+}
+.callus_content li span:nth-child(2) {
+    float: left;
+}

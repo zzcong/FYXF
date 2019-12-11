@@ -1,0 +1,103 @@
+.all_product_title {
+    width:200px;
+    height: 40px;
+    font-size: 16px;
+    color:#fff;
+    line-height: 40px;
+    padding-left:20px;
+    background: #fff url(../../images/SmartServiceCenter/05-bg-02.png) no-repeat;
+}
+.goodsnav {
+    width:220px;
+    height:626px;
+}
+.goodsnav li {
+    cursor: pointer;
+}
+.all_product_left {
+    border:1px solid #ededed;
+    width:218px;
+}
+.all_product_name {
+    position: relative;
+    width:180px;
+    height: 40px;
+    padding:0 20px;
+    color:#595959;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom:1px solid #ededed;
+}
+.all_product_name div:first-child {
+    width:164px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.all_product_name:hover {
+    background-color: #f5f5f5;
+    color:#508fc4;
+}
+.secondnav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -474px;;
+    width: 460px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    z-index: 10;
+}
+.goods-item {
+    height: 30px;
+    line-height: 30px;
+    border: none;
+}
+.secondnav a {
+    font-size: 12px;
+    padding: 0 16px;
+    color: #585858;
+} 
+.secondnav a:hover {
+    color:#508fc4;
+}
+.all_product_right {
+    width:960px;
+}
+.showlist div:nth-child(4n) .fireimgs {
+    margin-right:0px;
+}
+.fireimgs {
+    border:1px solid #eee;
+    width:214px;
+    height:218px;
+    background-color: #e9e8ee;
+    margin-right:31px;
+}
+.fireimgs img {
+    width:214px;
+    height:218px;
+    border:none;
+}
+.lastfireimgs {
+    /* margin-right:0px; */
+}
+.fire_eq_price {
+    font-size:14px;
+    color:#b30d0d;
+    line-height: 24px;
+    margin-top:6px;
+    font-weight: 600;
+}
+.fire_eq_name {
+    width: 214px;
+    color:#595959;
+    font-size:14px;
+    line-height: 24px;
+    margin-bottom:30px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}

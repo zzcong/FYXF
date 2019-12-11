@@ -1,0 +1,99 @@
+.addgoodstitle {
+    font-size: 18px;
+    padding:24px 30px;
+    border-bottom: 1px solid #cccccc;
+    color:#585858;
+}
+.goodsimg {
+    width:150px;
+    height: 150px;
+    line-height: 148px;
+    text-align: center;
+    border:1px solid #ededed;
+    margin:28px 0 10px 26px;
+}
+.goodsimg img{
+    width:150px;
+    height: 150px;
+    border: none;
+ }
+ .goodsdetaildiv {
+     margin-top:28px;
+ }
+.addgoodsbtn {
+    font-size:12px;
+    color:#fff;
+    background-color: #4e91c8;
+    border:none;
+    padding:10px 20px;
+    border-radius: 4px;
+    margin:0 0 10px 34px;
+    cursor: pointer;
+}
+.imgexplain {
+    display: none;
+    width:150px;
+    margin-left:26px;
+    font-size:12px;
+    color:#cf2933;
+    line-height: 20px;
+}
+.table_cell {
+    display:table-cell;
+    vertical-align: middle;
+    text-align: right;
+    line-height: 20px;
+}
+.cell_item {
+    display:inline-block;
+    line-height: 50px;
+    font-size:14px;
+    color:#727272;
+    width:136px;
+    text-align: right;
+}
+.cell_input {
+    width:386px;
+    height:38px;
+    border:1px solid #eee;
+    margin-left:10px;
+    padding: 0 10px;
+}
+
+.cell_file {
+    margin-left:10px;
+}
+.cell_textarea {
+    width:386px;
+    margin-left:10px;
+    vertical-align: top;
+    padding: 8px 10px;
+    border:1px solid #eee;
+}
+.submitdiv {
+    margin:30px 26px 0 26px;
+    border-top:1px dashed #dfdfdf;
+    padding:60px 0;
+}
+.certificatesubmit {
+    display:block;
+    width:200px;
+    height:42px;
+    border:none;
+    border-radius: 4px;
+    color:#fff;
+    background-color: #4f90c6;
+    font-size:16px;
+    margin:0 auto;
+    cursor: pointer;
+}
+.certificatesubmit:hover {
+    background-color: #578ab5;
+}
+.cell_select {
+    width: 100px;
+    height: 38px;
+    border: 1px solid #eee;
+    margin-left: 10px;
+    padding: 0 10px;
+}

@@ -1,0 +1,98 @@
+input,select,textarea,button {
+    outline: none;
+}
+.menu-general {
+    padding: 30px 72px 30px 74px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    color:#585858;
+}
+.welcometext {
+    color:#585858;
+    font-size: 14px;
+    padding:30px;
+}
+.table_cell {
+    display:table-cell;
+    vertical-align: middle;
+    text-align: right;
+    line-height: 20px;
+}
+.cell_item {
+    display:inline-block;
+    line-height: 50px;
+    font-size:14px;
+    color:#727272;
+    width:136px;
+    text-align: right;
+}
+.cell_input {
+    width:382px;
+    height:38px;
+    border:1px solid #eeeeee;
+    margin-left:10px;
+    padding-left: 6px;
+    background-color: #fdfdfd;
+}
+
+.cell_file {
+    background-color: #fdfdfd;
+    width: 212px;
+}
+.cell_textarea {
+    width:382px;
+    margin-left:10px;
+    vertical-align: top;
+    padding: 8px 0px 0 6px;
+    background-color: #fdfdfd;
+}
+.cell_select_4 {
+    margin-left:10px;
+    width:166px;
+    height:42px;
+    border:1px solid #eee;
+}
+.submitdiv {
+    margin:30px 26px 0 26px;
+    border-top:1px dashed #dfdfdf;
+    padding:60px 0;
+}
+.certificatesubmit {
+    display:block;
+    width:200px;
+    height:42px;
+    border:none;
+    border-radius: 4px;
+    color:#fff;
+    background-color: #4f90c6;
+    font-size:16px;
+    margin:0 auto;
+    cursor: pointer;
+}
+.certificatesubmit:hover {
+    background-color: #578ab5;
+}
+.uploadbtn {
+    display: inline-block;
+    width:156px;
+    height: 38px;
+    border:1px solid #eee;
+    text-align: center;
+    line-height: 38px;
+    background-color: #fdfdfd;
+    color:#585858;
+    font-size: 14px;
+    margin-left:8px;
+    cursor: pointer;
+}
+.uploadbtn i {
+    vertical-align: middle;
+    font-size: 30px;
+}
+.uploadbtn:hover {
+    background-color: #ededed;
+}
+.aboutenclosure {
+    border:1px solid #eee;
+    margin-top:6px;
+}

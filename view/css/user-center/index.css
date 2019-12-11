@@ -1,0 +1,91 @@
+.personimg {
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:60px 20px 20px 100px;
+    cursor: pointer;
+    background: url(../../images/SmartServiceCenter/01-home-photo-check.png) no-repeat;
+    background-size: 160px 160px;
+}
+.personimg:hover {
+    background-image: url(../../images/SmartServiceCenter/01-home-photo-check-hover.png);
+    background-size: 160px 160px;
+}
+.personimg img {
+    width:160px;
+    height:160px;
+    border-radius:50%;
+}
+.personbtn {
+    width:160px;
+    text-align: center;
+    margin-left:100px;
+    font-size: 16px;
+    color:#585858;
+    cursor: pointer;
+}
+.imgexplain {
+    width:180px;
+    text-align: left;
+    margin-left:100px;
+    font-size: 14px;
+    color:#f00;
+    line-height: 34px;
+    display:none;
+}
+.person_detail {
+    margin-top:60px;
+}
+.nickname {
+    width:100px;
+    text-align: right;
+    font-size: 16px;
+    color:#585858;
+    line-height: 42px;
+}
+.personaltext {
+    width:100px;
+    text-align: right;
+    font-size: 16px;
+    color:#585858;
+    line-height: 40px;
+}
+.nicknametext {
+    width:298px;
+    height:38px;
+    border:1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    color: #585858;
+    margin-left:12px;
+    padding-left:8px;
+}
+.personaltextbox {
+    width:298px;
+    height:180px;
+    outline: none;
+    font-size: 14px;
+    color: #585858;
+    margin-left:12px;
+    padding:8px 0 0 8px;
+    border:1px solid #ccc;
+}
+.margin_btm {
+    margin-bottom:30px;
+}
+.pkeepsave {
+    width:200px;
+    height:42px;
+    font-size: 18px;
+    border: none;
+    color:#fff;
+    background-color: #4f91c7;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:50px 0 0 360px;
+}
+.pkeepsave:hover {
+    background-color: #5092c6;
+}

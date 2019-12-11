@@ -1,0 +1,78 @@
+.complaint_type {
+    height:100px;
+    line-height: 100px;
+    margin-left:50px;
+    font-size: 16px;
+    color: #666666;
+}
+.complaint_type select {
+    width:386px;
+    border:1px solid #eeeeee;
+}
+.complaint_say {
+    margin-left:76px;
+    font-size: 16px;
+    color: #666666;
+}
+.complaint_say textarea {
+    width:386px;
+    border:1px solid #eeeeee;
+    vertical-align: text-top;
+}
+.makesure {
+    margin:100px 50px 0 50px;
+    border-top:1px dashed #eee;
+}
+.makesure button {
+    width:200px;
+    height:42px;
+    background-color: #4f90c6;
+    color:#fff;
+    border-radius: 4px;
+    border:none;
+    font-size:16px;
+    margin:50px 0 0 320px;
+    cursor: pointer;
+}
+.makesure button:hover {
+    background-color: #578ab5;
+}
+/* 弹出提示框样式 开始*/
+.myconfirm {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(76, 76, 76, 0.7);
+}
+.white_div {
+    width:300px;
+    height:200px;
+    background-color: #fff;
+    margin:0 auto;
+    position: relative;
+    margin-top:200px;
+}
+.closedx {
+    position: absolute;
+    top:4px;
+    right:4px;
+    padding:8px 10px;
+    font-size: 16px;
+    color:#585858;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.closedx:hover {
+    background-color: #458794;
+    color:#fff;
+}
+.confirm_tips {
+   padding-top:80px;
+   text-align: center;
+   color:#000;
+   font-size: 16px;
+}
+/* 弹出提示框样式 结束*/

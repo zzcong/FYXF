@@ -1,0 +1,379 @@
+input,select,textarea,button {
+    outline: none;
+}
+input {
+    padding:0px 6px;
+    background-color: #fdfdfd;
+}
+textarea {
+    padding:10px 6px;
+}
+.certificationselected {
+    color:#4f90c6;
+    border-bottom:4px solid #4f90c6;
+}
+.certificationhide {
+    display:none;
+}
+.certification-title {
+    margin:0 174px 40px 116px;
+    color:#585858;
+    font-size:18px;
+    line-height:66px;
+    border-bottom:1px solid #5091c7;
+    height:68px;
+}
+.certification-title div {
+    cursor: pointer;
+}
+.volunteertext {
+    width:334px;
+    text-align: center;
+}
+.sellertext {
+    width:334px;
+    text-align: center;
+}
+.table_cell {
+    display:table-cell;
+    vertical-align: middle;
+    text-align: right;
+    line-height: 20px;
+}
+.cell_item {
+    display:inline-block;
+    line-height: 50px;
+    font-size:14px;
+    color:#727272;
+    width:136px;
+    text-align: right;
+}
+.cell_input {
+    width:374px;
+    height:38px;
+    border:1px solid #eeeeee;
+    margin-left:10px;
+    background-color: #fdfdfd;
+}
+.cell_file {
+    margin-left:10px;
+    background-color: #fdfdfd;
+}
+.cell_textarea {
+    width:386px;
+    margin-left:10px;
+    vertical-align: top;
+    border:1px solid #eee;
+    background-color: #fdfdfd;
+}
+.certificatesubmit {
+    display:block;
+    width:200px;
+    height:42px;
+    border:none;
+    border-radius: 4px;
+    color:#fff;
+    background-color: #4f90c6;
+    font-size:16px;
+    margin:0 auto;
+    cursor: pointer;
+}
+.submitdiv {
+    margin:16px 26px 0 26px;
+    border-top:1px dashed #dfdfdf;
+    padding-top:60px;
+}
+.certificatesubmit:hover {
+    background-color: #578ab5;
+}
+.cell_selected {
+    margin-left:10px;
+    width:120px;
+    height:42px;
+    border:1px solid #eee;
+    background-color: #fdfdfd;
+}
+.cell_select_data {
+    margin-left:10px;
+    width:386px;
+    height:42px;
+    border:1px solid #eee;
+}
+.cell_item_radio {
+    display:inline-block;
+    line-height: 50px;
+    font-size:14px;
+    color:#727272;
+    text-align: left;
+    padding-left:10px;
+}
+.cell_radio_last {
+    margin-left:24px;
+}
+.callpersondiv {
+    margin:40px 20px 0 20px;
+    border-top:1px dashed #eee;
+    border-bottom: 1px dashed #eee;
+    padding-bottom:40px;
+}
+.divtitle_out {
+    height:52px;
+    margin:0px 30px;
+    border-bottom: 1px solid #ddd;
+}
+.divtitletext {
+    font-size: 16px;
+    color:#4f91c7;
+    line-height: 52px;
+    border-bottom: 2px solid #5091c7;
+    width:120px;
+    text-align: center;
+}
+.personmargin {
+    padding-top:28px;
+}
+.textareadiv {
+    margin:16px 36px 0 36px;
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 12px;
+}
+.titletext {
+    font-size:16px;
+    color:#4f91c7;
+    line-height: 56px;
+}
+.title_explain {
+    font-size:14px;
+    color:#f29754;
+}
+.imgformat {
+    color:#cd0714;
+    line-height:26px;
+    display: none;
+}
+.titletextone {
+    font-size:16px;
+    color:#4f91c7;
+    line-height: 28px;
+    padding-top:10px;
+}
+.title_explainone {
+    font-size:14px;
+    color:#f29754;
+    line-height:26px;
+    padding-bottom:16px;
+}
+.specialmargin {
+    margin-left:-62px;
+    margin-top:10px;
+}
+.submitout {
+    padding:26px;
+}
+.certification-volunteer .table_cell {
+    padding-bottom: 10px;
+}
+.callpersondiv .table_cell {
+    padding-bottom: 10px;
+}
+.cell_file {
+    background-color: #fdfdfd;
+    width: 204px;
+}
+.uploadbtn {
+    display: inline-block;
+    width:156px;
+    height: 38px;
+    border:1px solid #eee;
+    text-align: center;
+    line-height: 38px;
+    background-color: #fdfdfd;
+    color:#585858;
+    font-size: 14px;
+    margin-left:8px;
+    cursor: pointer;
+}
+.uploadbtn i {
+    font-size: 30px;
+    vertical-align: middle;
+}
+.uploadbtn:hover {
+    background-color: #ededed;
+}
+.aboutenclosure {
+    border:1px solid #eee;
+    margin-top:6px;
+}
+.logo_out {
+    height:216px;
+    margin-top:8px;
+}
+.logotext {
+    font-size: 14px;
+    color: #727272;
+    width: 136px;
+    text-align: right;
+    line-height:26px;
+}
+.logoupload {
+    width:120px;
+    height:120px;
+    cursor: pointer;
+    margin: 0 0 20px 15px;
+    background-image: url(../../images/SmartServiceCenter/01-home-photo-check.png);
+    background-size: 120px 120px;
+}
+.logoupload img {
+    width:120px;
+    height:120px;
+    border:none;
+}
+.logoupload:hover {
+    background-image: url(../../images/SmartServiceCenter/01-home-photo-check-hover.png);
+    background-size: 120px 120px;
+}
+.logo_uploadbtn {
+    display: inline-block;
+    width:120px;
+    height: 58px;;
+    border:none;
+    outline: none;
+    text-align: center;
+    line-height: 58px;
+    background-color: #4e91c6;
+    color:#fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left:15px;
+}
+.logo_uploadbtn:hover {
+    background-color: #578ab5;
+}
+.logo_care {
+    position: absolute;
+    top:572px;
+    left:350px;
+    font-size: 12px;
+    color:#cc0813;
+    display: none;
+}
+.starttime {
+    margin:10px 0px 0px 10px;
+}
+.imgcssdivone {
+    width:232px;
+    height:140px;
+    border:1px solid #55b5e8;
+    background-color: #f9f9f9;
+    margin:0 20px 12px 0;
+    background: url(../../images/SmartServiceCenter/01-home-photo-check.png) no-repeat;
+    background-size: 232px 140px;
+}
+.imgcssdivone:hover {
+    background: url(../../images/SmartServiceCenter/01-home-photo-check-hover.png) no-repeat;
+    background-size: 232px 140px;
+}
+.imgcssdivone img {
+    width:232px;
+    height:140px;
+    border:none;
+}
+.updownbtnone {
+    display:block;
+    width:234px;
+    height:36px;
+    background-color: #4e91c6;
+    color:#fff;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.imgcssdivtwo {
+    width:232px;
+    height:140px;
+    border:1px solid #55b5e8;
+    background-color: #fff;
+    margin:0 20px 12px 0;
+    background: url(../../images/SmartServiceCenter/01-home-photo-check.png) no-repeat;
+    background-size: 232px 140px;
+}
+.imgcssdivtwo:hover {
+    background: url(../../images/SmartServiceCenter/01-home-photo-check-hover.png) no-repeat;
+    background-size: 232px 140px;
+}
+.imgcssdivtwo img {
+    width:232px;
+    height:140px;
+    border:none;
+}
+.updownbtntwo {
+    display:block;
+    width:234px;
+    height:36px;
+    background-color: #4e91c6;
+    color:#fff;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.idcardexample {
+    margin:34px 0 16px 0;
+}
+.idcard1big {
+    width:88px;
+    height:52px;
+    border:1px solid #ccc;
+    margin: 0 12px 12px 0;
+}
+.idcard2big {
+    width:88px;
+    height:52px;
+    border:1px solid #ccc;
+    margin-bottom:12px;
+}
+.addqualifications {
+    display:inline-block;
+    width:386px;
+    height:40px;
+    border:1px solid #eee;
+    margin-left:10px;
+    text-align: center;
+    font-size: 14px;
+    line-height:40px;
+    color:#585858;
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
+.addqualifications i {
+    font-size: 30px;
+    vertical-align: middle;
+}
+.addqualifications:hover {
+    background-color: #f3f3f3;
+}
+.qualificationsname {
+    border:1px solid #eee;
+    outline: none;
+    background-color: #fdfdfd;
+    height:38px;
+    margin-left:150px;
+}
+.sellercheck {
+    width:80%;
+    position:relative;
+    top:-24px;
+    left:144px;
+    color:#585858;
+    font-size: 14px;
+    line-height: 34px;
+}
+.checkinput {
+    width:14px;
+    height:14px;
+    vertical-align: middle;
+}
+.checkinputmargin {
+    margin-left:70px;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/pagination.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/VolunteerCenter/index.css">
+    <title>志愿者智慧中心</title>
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <div class="common-head">
+        <div class="clearfix">
+            <div class="fl">
+                <a href="javascript:;" class="logo fl">
+                    <img src="../../images/0_logo.png" alt="">
+                </a>
+                <h1 class="fl">杭州市公安局富阳区分局智慧消防监督管理平台</h1>
+            </div>
+            <div class="fr">
+                <!-- <div class="set-index fl">
+                    <span onclick="SetHome(this,window.location);">设为首页</span>
+                </div>
+                <div class="common-split-line fl"></div>
+                <div class="set-collect fl">
+                    <span onclick="AddFavorite()">加入收藏</span>
+                </div>
+                <div class="common-split-line fl"></div> -->
+                <div class="user fl">
+                    <div class="user-img fl">
+                        <img src="../../images/0_logo.png" alt="">
+                    </div>
+                    <span class="fl user-name"></span>
+                    <div class="user-more-tool">
+                        <div class="user-center">
+                            <img src="../../images/index_login/01-home-user.png">
+                            <span>个人中心</span>
+                        </div>
+                        <div class="user-logout">
+                            <img src="../../images/index_login/01-home-quicktime.png">
+                            <span>退出登录</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-login fl">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 头部结束 -->
+    <!-- 导航条开始 -->
+    <div class="nav">
+        <div class="nav_text warpper clearfix">
+            <div class="convenient_center fl">
+                <a href="javascript:;">消防志愿者智慧中心</a>
+            </div>
+            <div class="online_do fl active">
+                <a href="./index.html">活动中心</a>
+            </div>
+            <div class="appointment_visit fl">
+                <a href="./general_authentication.html">认证中心</a>
+            </div>
+            <div class="appointment_visit fl">
+                <a href="./general_score.html">积分中心</a>
+            </div>
+            <p class="score_num fr">
+                <span>普通志愿者</span> --- 我的积分：<span class="score"></span>
+            </p>
+        </div>
+    </div>
+    <!-- 导航条结束 -->
+    <!-- 中间内容开始 -->
+    <div class="volunteercenter_out warpper">
+        <div class="classifyfind">
+            <div class="classifyout">
+                <div>
+                    参加要求 : &nbsp;&nbsp;
+                    <span class="activetop">
+                        <span class="classifyitem beselected" data-id="">全部活动</span>
+                        <span class="classifyitem" data-id="1">普通志愿者活动</span>
+                        <span class="classifyitem" data-id="2">专业志愿者活动</span>
+                    </span>
+                </div>
+                <div>
+                    活动类型 : &nbsp;&nbsp;
+                    <span class="activetop1">
+                        
+                    </span>
+                </div>
+                <div class="specialmarg">
+                    活动状态 : &nbsp;&nbsp;
+                    <span class="activetop2">
+                        <span class="classifyitem beselected" data-id="">全部活动</span>
+                        <span class="classifyitem" data-id="">正在报名</span>
+                        <span class="classifyitem" data-id="">已满员</span>
+                        <span class="classifyitem" data-id="">已结束</span>
+                    </span>
+                </div>
+                <a class="jointo" href="javascript:;">发起活动</a>
+            </div>
+        </div>
+        <div>
+            <ul class="activelist">
+            </ul>
+        </div>
+        <!-- 分页开始 -->
+        <div class="page_turn">
+            <div class="M-box">
+            </div>
+        </div>
+    </div>
+    <!-- 中间内容结束 -->
+    <!-- 底部开始 -->
+    <div class="common-foot" style="margin-top:22px;">
+        <div class="warpper">
+            <div class="fl common-company">                 <p>copyright@杭州富阳公安局</p>                 <p>地址：杭州市富阳区达夫路73号 电话：0571-63155714、0571-63155711</p>             </div>
+            <div class="fr">
+                <img src="../../images/index/0-login-xiaofang-icon.png" class="sign fl">
+                <img src="../../images/index/fuy_code.jpg" class="qrcode fl">
+                <p class="fl tips">扫码关注小程序获取更多服务</p>
+            </div>
+        </div>
+    </div>
+    <!-- 底部结束 -->
+    <!-- 弹出框开始 -->
+    <div class="myconfirm" style="display: none;">
+        <div class="whitebox_4">
+            <span class="closed">X</span>
+            <div>您已成功报名活动，</div>
+            <div>请按时参加。</div>
+        </div>
+    </div>
+</body>
+<script type="text/html" id="ActiveType">
+    {{each list val index}}
+    <span class="classifyitem" data-id={{val.categoryId}}>{{val.name}}</span>
+    {{/each}}
+</script>
+<script type="text/html" id="list">
+    {{each list val index}}
+        <li class="lilist" data-id={{val.activityId}}>
+            <div class="liline clearfix">
+                <div class="videoarea fl">
+                    <img src={{val.cover}}>
+                </div>
+                <div class="fl">
+                    <div class="act_videotitle">{{val.title}}</div>
+                    <div class="act_videotitle">资质要求 : {{val.volunteerStatus}}</div>
+                    <div class="act_videotitle">报名人数 : {{val.menNum}}</div>
+                    <div class="act_videotitle">报名时间 : {{val.startTime}}---{{val.endTime}}</div>
+                    <a class="lijoin" href="javascript:;">参加活动</a>
+                </div>
+            </div>
+        </li>
+    {{/each}}
+</script>
+<script src="../../static/jquery.1.11.0.js"></script>
+<script src="../../static/jquery.pagination.min.js"></script>
+<script src="../../static/template.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/VolunteerCenter/index.js"></script>
+
+</html>

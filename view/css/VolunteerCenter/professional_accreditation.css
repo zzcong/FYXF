@@ -1,0 +1,86 @@
+input,select,textarea,button {
+    outline: none;
+}
+.menu-general {
+    padding: 30px 72px 30px 74px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    color:#585858;
+}
+.welcometext {
+    color:#585858;
+    font-size: 14px;
+    padding:30px;
+}
+.table_cell {
+    display:table-cell;
+    vertical-align: middle;
+    text-align: right;
+    line-height: 20px;
+}
+.cell_item {
+    display:inline-block;
+    line-height: 50px;
+    font-size:14px;
+    color:#727272;
+    width:136px;
+    text-align: right;
+}
+.cell_input {
+    width:386px;
+    height:38px;
+    border:1px solid #eeeeee;
+    margin-left:10px;
+    padding: 0 10px;
+}
+
+.cell_file {
+    margin-left:10px;
+}
+.cell_textarea {
+    width:386px;
+    margin-left:10px;
+    vertical-align: top;
+    padding: 8px 10px;
+}
+.cell_select_4 {
+    margin-left:10px;
+    width:166px;
+    height:42px;
+    border:1px solid #eee;
+}
+.intr {
+    padding-top: 60px;
+    font-size: 14px;
+    line-height: 2.5em;
+    color: #585858;
+}
+.intr h2 {
+    color: #333;
+    text-align: center;
+    line-height: 3em;
+    font-size: 20px;
+}
+.intr p {
+    padding: 0 50px;
+}
+.intr p:nth-child(2) {
+    font-size: 16px;
+    color: #333;
+}
+.intr p:nth-child(n+3) {
+    padding: 0 50px 0 78px;
+}
+.intr a {
+    display: block;
+    width: 200px;
+    height: 42px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #4f90c6;
+    font-size: 16px;
+    margin: 50px auto;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+}

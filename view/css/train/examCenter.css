@@ -1,0 +1,55 @@
+.videoarea {
+    width: 168px;
+    height: 126px;
+    margin: 0 20px 0 0;
+}
+
+.videoarea img {
+    width: 100%;
+    height: 100%;
+}
+
+.lilist {
+    padding-top: 24px;
+}
+
+.liline {
+    margin: 0 20px;
+    border-bottom: 1px dashed #dedede;
+}
+
+.lilist:hover {
+    background-color: #f6f6f6;
+}
+
+.act_videotitle {
+    font-size: 16px;
+    color: #585858;
+    line-height: 32px;
+}
+
+.lijoin {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    right: -862px;
+    bottom: 20px;
+    padding: 6px 26px;
+    background-color: #4f90c6;
+}
+
+.lijoin:hover {
+    background-color: #578ab5;
+}
+
+.lijoin_act {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    right: -862px;
+    bottom: 20px;
+    padding: 6px 14px;
+    background-color: #578ab5;
+}

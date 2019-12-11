@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../static/iconfont_my/iconfont.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/train/train_center.css">
+    <title>杭州市公安局富阳区分局智慧消防监督管理平台</title>
+</head>
+
+<body>
+    <div class="common-head">
+        <div class="clearfix">
+            <div class="fl">
+                <a href="javascript:;" class="logo fl">
+                    <img src="../../images/0_logo.png" alt="">
+                </a>
+                <h1 class="fl">杭州市公安局富阳区分局智慧消防监督管理平台</h1>
+            </div>
+            <div class="fr">
+                <!-- <div class="set-index fl">
+                    <span onclick="SetHome(this,window.location);">设为首页</span>
+                </div>
+                <div class="common-split-line fl"></div>
+                <div class="set-collect fl">
+                    <span onclick="AddFavorite()">加入收藏</span>
+                </div>
+                <div class="common-split-line fl"></div> -->
+                <div class="user fl">
+                    <div class="user-img fl">
+                        <img src="../../images/0_logo.png" alt="">
+                    </div>
+                    <span class="fl user-name"></span>
+                    <div class="user-more-tool">
+                        <div class="user-center">
+                            <img src="../../images/index_login/01-home-user.png">
+                            <span>个人中心</span>
+                        </div>
+                        <div class="user-logout">
+                            <img src="../../images/index_login/01-home-quicktime.png">
+                            <span>退出登录</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-login fl">
+                    <a href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 导航条开始 -->
+    <div class="nav">
+        <div class="nav_text warpper clearfix">
+            <div class="fl">
+                <a href="javascript:;">
+                    消防安全教育培训中心
+                </a>
+            </div>
+            <div class="fl">
+                <a href="./index.html">
+                    培训中心
+                </a>
+            </div>
+            <div class="fl active">
+                <a href="./knowledge.html">
+                    知识库
+                </a>
+            </div>
+            <div class="fl">
+                <a href="./train-data-lib.html">
+                    消防资料库
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 导航条结束 -->
+    <div class="warpper">
+        <div class="train_centertop">
+            <span>首页</span>
+            <span> > </span>
+            <span>知识库</span>
+            <span> > </span>
+            <span>知识详情</span>
+        </div>
+        <div>
+            <div class="formhead">
+                <span>基本信息</span>
+                <button class="backbtn">
+                    <i class="iconfont">&#xe60a;</i>
+                    返回
+                </button>
+            </div>
+            <form action="">
+                <div class="lorebox">
+                    <ul>
+                        <li class="clearfix">
+                            <div class="fl">
+                                <span class="">危化品类别</span>
+                                <!-- <select name="" id="">
+                                    <option value="">其他</option>
+                                </select> -->
+                                <input type="text" class="dangerType">
+                            </div>
+                            <div class="fl">
+                                <span>中文名称</span>
+                                <input type="text" class="chinaName">
+                            </div>
+                            <div class="fl">
+                                <span>英文名称</span>
+                                <input type="text" class="englishNmae">
+                            </div>
+                            <div class="fl">
+                                <span>别名</span>
+                                <input type="text" class="alias">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="fl">
+                                <span>分子式</span>
+                                <input type="text" class="molecularformula">
+                            </div>
+                            <div class="fl">
+                                <span>参照处置方案</span>
+                                <input type="text" class="disposalplan">
+                            </div>
+                            <div class="fl">
+                                <span>灭火剂</span>
+                                <input type="text" class="extinguishingagent">
+                            </div>
+                            <div class="fl">
+                                <span>气味</span>
+                                <input type="text" class="smell">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="fl">
+                                <span>颜色</span>
+                                <input type="text" class="colour">
+                            </div>
+                            <div class="fl">
+                                <span>状态</span>
+                                <!-- <select name="" id="">
+                                    <option value="">其他</option>
+                                </select> -->
+                                <input type="text" class="state">
+                            </div>
+                            <div class="fl">
+                                <span>熔点</span>
+                                <input type="text" class="meltingpoint">
+                            </div>
+                            <div class="fl">
+                                <span>沸点</span>
+                                <input type="text" class="boilingpoint">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="fl">
+                                <span>相对密度</span>
+                                <input type="text" class="relativedensity">
+                            </div>
+                            <div class="fl">
+                                <span>闪点</span>
+                                <input type="text" class="flashpoint">
+                            </div>
+                            <div class="fl">
+                                <span>爆炸极限</span>
+                                <input type="text" class="explosionlimit">
+                            </div>
+                            <div class="fl">
+                                <span>分解产物</span>
+                                <input type="text" class="decompositionproducts">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="fl">
+                                <span>稳定性</span>
+                                <input type="text" class="stability">
+                            </div>
+                            <div class="fl">
+                                <span>禁忌物</span>
+                                <input type="text" class="taboo">
+                            </div>
+                            <div class="fl">
+                                <span>皮肤</span>
+                                <input type="text" class="skin">
+                            </div>
+                            <div class="fl">
+                                <span>眼</span>
+                                <input type="text" class="eye">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="fl">
+                                <span>呼吸道</span>
+                                <input type="text" class="respiratorytract">
+                            </div>
+                            <div class="fl">
+                                <span>窒息症状</span>
+                                <input type="text" class="suffocation">
+                            </div>
+                            <div class="fl">
+                                <span>中枢神经系统</span>
+                                <input type="text" class="centralnervous">
+                            </div>
+                            <div class="fl">
+                                <span>呼吸系统</span>
+                                <input type="text" class="respiratorysystem">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="fl">
+                                <span>循环系统</span>
+                                <input type="text" class="circulatorysystem">
+                            </div>
+                            <div class="fl">
+                                <span>消化系统</span>
+                                <input type="text" class="digestivesystem">
+                            </div>
+                            <div class="fl">
+                                <span>参照化学品</span>
+                                <input type="text" class="referencechemicals">
+                            </div>
+                            <div class="fl">
+                                <span>储存包装</span>
+                                <input type="text" class="storagepackaging">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="fl">
+                                <span>LD50</span>
+                                <input type="text" class="LD50">
+                            </div>
+                            <div class="fl">
+                                <span>LC50</span>
+                                <input type="text" class="LC50">
+                            </div>
+                            <div class="fl">
+                                <span>国际代码</span>
+                                <input type="text" class="internationalcode">
+                            </div>
+                            <div class="fl">
+                                <span>其他特性</span>
+                                <input type="text" class="other">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="fl">
+                                <span>自燃点</span>
+                                <input type="text" class="naturalpoint">
+                            </div>
+                            <div class="fl">
+                                <span>扩散半径</span>
+                                <input type="text" class="diffusionradius">
+                            </div>
+                            <div class="fl">
+                                <span>危险特性</span>
+                                <input type="text" class="hazardcharacteristics">
+                            </div>
+                            <div class="fl">
+                                <span>注意事项</span>
+                                <input type="text" class="mnattention">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="fl">
+                                <span>BREATHCANA</span>
+                                <input type="text" class="breathcana">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <div>
+            <div class="formhead">
+                <span>附件下载</span>
+            </div>
+            <div class="lorebox down">
+                <ul>
+                    <li class="clearfix">
+                        <div class="fl">
+                            <span>文件名</span>
+                        </div>
+                        <div class="fl">
+                            <span>大小</span>
+                        </div>
+                        <div class="fl">
+                            <span>修改日期</span>
+                        </div>
+                        <div class="fr">
+                            <div class="button fr">下载</div>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="downfileName fl">
+                            <span class="fileName"></span>
+                        </div>
+                        <div class="fl">
+                            <span class="fileSize"></span>
+                        </div>
+                        <div class="fl">
+                            <span class="changeDate"></span>
+                        </div>
+                        <div class="downUrldiv fr">
+                            <button class="downUrlbtn fr">
+                                <a class="downUrl" href="javascript:;" download="">下载</a>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="remark">
+                    <div class="fl">备注</div>
+                    <textarea class="remark_care" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="common-foot" style="margin-top:24px;">
+        <div class="warpper">
+            <div class="fl common-company">                 <p>copyright@杭州富阳公安局</p>                 <p>地址：杭州市富阳区达夫路73号 电话：0571-63155714、0571-63155711</p>             </div>
+            <div class="fr">
+                <img src="../../images/index/0-login-xiaofang-icon.png" class="sign fl">
+                <img src="../../images/index/fuy_code.jpg" class="qrcode fl">
+                <p class="fl tips">扫码关注小程序获取更多服务</p>
+            </div>
+        </div>
+    </div>
+</body> 
+<script src="../../static/jquery.1.11.0.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/train/train-center.js"></script>
+
+</html>

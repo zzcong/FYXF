@@ -1,0 +1,154 @@
+input,select,button {
+    outline: none;
+}
+.train_centertop {
+    font-size: 14px;
+    color:#585858;
+    border-bottom:1px solid #cfcfcf;
+    padding-bottom:26px;
+    margin-bottom:24px;
+}
+.train_centertop>span:nth-child(2n-1) {
+    cursor: pointer;
+}
+.formhead {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    height:49px;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    color:#585858;
+    line-height:50px;
+    padding-left:30px;
+    position: relative;
+}
+.backbtn {
+    width:68px;
+    height:24px;
+    border:none;
+    color:#fff;
+    background-color: #4c91c8;
+    position: absolute;
+    right:14px;
+    bottom:12px;
+    cursor: pointer;
+}
+.backbtn i {
+    vertical-align: middle;
+    font-size: 12px;
+}
+.backbtn:hover {
+    background-color: #578ab5;
+}
+.lorebox {
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-bottom: 20px;
+}
+.lorebox ul input, .lorebox ul select {
+    width: 158px;
+    height: 24px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+.lorebox ul input {
+    width: 150px;
+    padding-left: 8px;
+}
+.lorebox ul {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.lorebox ul li {
+    width: 1120px;
+    height: 26px;
+    border-bottom: 1px dashed #ccc;
+    padding: 14.5px 6px 14.5px 26px;
+}
+.lorebox ul li:last-child {
+    border-bottom: none;
+}
+.lorebox ul li div {
+    width: 25%;
+    text-align: right;
+}
+.lorebox ul li div:last-child {
+    margin-right: 0;
+}
+.lorebox ul li span {
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #585858;
+}
+.down ul li {
+    width: auto;
+    padding-left: 6px;
+}
+.down ul li:last-child {
+    border-bottom: 1px dashed #ccc;
+}
+.down ul li div {
+    text-align: left;
+}
+.down ul li div:nth-child(2) {
+    width: 40%;
+}
+.down ul li div:nth-child(4) {
+    width: 10%;
+}
+.down .checkbox {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ccc;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.down .checked {
+    width: 18px;
+    height: 18px;
+    border: none;
+    margin-top: 4px;
+    background-image: url(../../images/train/02-icon-select.png);
+}
+.down ul li div button {
+    width: 68px;
+    height: 24px;
+    background-color: #578ab5;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.down ul li div .button {
+    width: 68px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.down ul li div button:hover {
+    background-color: #4f90c6;
+}
+.down .remark {
+    padding: 20px 24px;
+}
+.down .remark textarea {
+    width: 1106px;
+    margin-left: 10px;
+    padding:10px 0 0 8px;
+    border:1px solid #ccc;
+    background-color: #eee;
+    outline: none;
+}
+.downfileName {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.downUrl {
+    color:#fff;
+}
