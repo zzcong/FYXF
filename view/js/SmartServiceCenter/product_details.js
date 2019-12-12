@@ -13,7 +13,7 @@ $(function () {
         var that = this
         getClassify($(that).data('categoryid'),7, function (res) {
             if (res.list && !res.list.length)  {
-                window.location.href = './all_product_list.html?category='+ $(that).data('categoryid')
+                // window.location.href = './all_product_list.html?category='+ $(that).data('categoryid')
                 return
             }
             var html = template('detail-menu', res)

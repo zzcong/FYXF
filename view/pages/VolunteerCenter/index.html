@@ -151,7 +151,13 @@
                 </div>
                 <div class="fl">
                     <div class="act_videotitle">{{val.title}}</div>
-                    <div class="act_videotitle">资质要求 : {{val.volunteerStatus}}</div>
+                    {{if val.volunteerStatus == 0}}
+                    <div class="act_videotitle">资质要求 : 全部</div>
+                    {{else if val.volunteerStatus == 1}}
+                    <div class="act_videotitle">资质要求 : 普通志愿者</div>
+                    {{else}}
+                    <div class="act_videotitle">资质要求 : 专业志愿者</div>
+                    {{/if}}
                     <div class="act_videotitle">报名人数 : {{val.menNum}}</div>
                     <div class="act_videotitle">报名时间 : {{val.startTime}}---{{val.endTime}}</div>
                     <a class="lijoin" href="javascript:;">参加活动</a>

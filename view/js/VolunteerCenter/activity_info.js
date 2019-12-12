@@ -4,15 +4,15 @@ $(function () {
     Common.userImgClick()
     Common.isHaveScore()
     // table栏切换(公用)
-    for (var i = 0; i < $(".tablecolumn > .tableswitch").length; i++) {
-        $(".tablecolumn > .tableswitch")[i].onclick = function () {
-            var index = $(this).index();//获取当前.tableswitch标签的个数
-            $(this).parent().siblings().hide();//返回上一层，在下面要隐藏的div
-            $(this).parent().siblings().eq(index).show(); //返回上一层，在下面查要显示的div，然后选中的显示
-            $(this).addClass("clickswitchtb");//为选中的标题框加样式
-            $(this).siblings().removeClass("clickswitchtb"); //没有选中的标题框去掉样式
-        };
-    }
+    // for (var i = 0; i < $(".tablecolumn > .tableswitch").length; i++) {
+    //     $(".tablecolumn > .tableswitch")[i].onclick = function () {
+    //         var index = $(this).index();//获取当前.tableswitch标签的个数
+    //         $(this).parent().siblings().hide();//返回上一层，在下面要隐藏的div
+    //         $(this).parent().siblings().eq(index).show(); //返回上一层，在下面查要显示的div，然后选中的显示
+    //         $(this).addClass("clickswitchtb");//为选中的标题框加样式
+    //         $(this).siblings().removeClass("clickswitchtb"); //没有选中的标题框去掉样式
+    //     };
+    // }
     activityInfos()
     otherclass()
     // 点击推荐课程的li
