@@ -2,15 +2,16 @@ $(function () {
     Common.toHome()
     Common.userInfo()
     Common.userImgClick()
-    // getClassify(0,7,function(res) {
-    //     var html = '<option value="">请选择</option>'
-    //     res.list.forEach(function(v) {
-    //         html += '<option value="'+ v.categoryId +'">'+ v.name +'</option>'
-    //     })
-    //     $('.first-category').html(html)
-    // })
     if (getQueryString('id')) {
         getProductDetail()
+    } else {
+        getClassify(0,7,function(res) {
+            var html = '<option value="">请选择</option>'
+            res.list.forEach(function(v) {
+                html += '<option value="'+ v.categoryId +'">'+ v.name +'</option>'
+            })
+            $('.first-category').html(html)
+        })
     }
     $('.first-category').on('change', function () {
         getClassify($(this).val(), 7, function (res) {
